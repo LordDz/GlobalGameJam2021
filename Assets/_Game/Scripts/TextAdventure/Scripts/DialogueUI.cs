@@ -19,12 +19,12 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
 
         public void ShowUI()
         {
-            this.enabled = true;
+            this.gameObject.SetActive(true);
         }
 
         public void HideUI()
         {
-            this.enabled = false;
+            this.gameObject.SetActive(false);
         }
     }
 }
