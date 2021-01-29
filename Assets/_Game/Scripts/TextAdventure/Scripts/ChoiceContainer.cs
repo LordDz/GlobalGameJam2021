@@ -14,7 +14,6 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         [SerializeField] State startingState;
 
         State state;
-        State lastState;
         AudioSource audioSpeaker;
 
         // Use this for initialization
@@ -32,6 +31,13 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             }
             NextState(0);
         }
+
+        public void SetTalk(State talkState)
+        {
+            state = talkState;
+            NextState(0);
+        }
+
 
         public void NextState(int nr)
         {
