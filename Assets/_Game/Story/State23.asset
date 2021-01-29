@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State23
+  m_EditorClassIdentifier: 
+  storyText: "Leaving the dance club, you move off down the corridor towards the
+    lift.  As you rush along, you hear booted feet ahead and feel a surge of relief. 
+    You are not alone after all!  Maybe they can help you take control of the ship.\r\nYou
+    hurry around the bend towards your newfound friends; but when they come into
+    sight you begin to doubt the extent of the amiability.  There are four soldiers,
+    clad in space-black fatigues with shiny black body armour and helmets with tinted
+    visors. Each one carries a blaster rifle in hand, belts heavy with other weapons
+    around their hips. Each one has an insignia of a planet with a large red P on
+    it.  Inwardly you groan.  You have heard of these soldiers.  In recent times
+    a mysterious tyrant has been taking over planets one by one, leaving dead husks
+    in its wake.  There is much speculation about what P stands for, but most newscasters
+    have seized upon the unimaginative \u2018Pirates.\u2019\r\nSeeing you, one calls
+    out \u201CHalt!\u201D as they rush to apprehend you.  Two of them grab you and
+    another thrusts his gun into your chest.  The other just chills nearby.  You
+    imagine the soldier in front giving you a steely cold stare, but can see nothing
+    through the visor.\r\n\u201CWho are you?\u201D the soldier before you demands
+    to know.\r\n\r\n1. If you have your ID and want to show it to him\n2. If you
+    have Gary Fishbone\u2019s ID and want to show it to him\n3. Otherwise, your only
+    choice is to insult him\n"
+  nextStates:
+  - {fileID: 11400000, guid: 0d3ef62448a3fd545af25bfcc90723dc, type: 2}
+  - {fileID: 11400000, guid: 4156e6b2552b57a4ca81985135677b87, type: 2}
+  - {fileID: 11400000, guid: ea0606b07e73c8843a412ad64d9d3f41, type: 2}

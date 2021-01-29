@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State9
+  m_EditorClassIdentifier: 
+  storyText: "You decide to play it safe.  \u201CSo, \u201C you say.  \u201CWhat\u2019s
+    your queen like?\u201D\r\n\u201CYou\u2019ll know soon enough!\u201D the soldier
+    grins unpleasantly.\r\nHis tone does not fill you with confidence, but you try
+    to put a positive spin on things.  Maybe the queen is beautiful and single, embarking
+    on the conquest of the universe because she is lonely.  You imagine yourself
+    dragged before her in chains, and winning her heart somehow.  You then rule the
+    universe at her side, your calming influence stopping this nonsense about slaughtering
+    whole populations and laying waste to planets.\r\nBeing captured could actually
+    be a step in the right direction for your career.  The lift reaches deck X and
+    you are taken to an observation lounge and flung inside.  The doors close.  Not
+    immediately seeing any haughty queens, beautiful or otherwise, in the lounge,
+    you try the doors at each end, finding them locked.  \r\nYou have no option other
+    than to wait\r\n1. to continue"
+  nextStates:
+  - {fileID: 11400000, guid: cbc3b65b648eb1e45b874155e38cee9c, type: 2}

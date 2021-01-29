@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State50
+  m_EditorClassIdentifier: 
+  storyText: 'You speak the word, and the console before you lights up, while engines
+    somewhere in the rear power up. The ship trembles and takes off.  The heat is
+    starting to grow unbearable, and you grip the arms of the chair tightly.  The
+    ship speeds through the bay and shoots out of the hanger door, sending you flying
+    free at last into refreshingly cold space.
+
+    
+
+    1 to continue
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 992343b534f065a48a6bfd2cdad3e051, type: 2}

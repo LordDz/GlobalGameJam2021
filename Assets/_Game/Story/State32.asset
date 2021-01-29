@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State32
+  m_EditorClassIdentifier: 
+  storyText: "You take the corridor to the left.  About a hundred metres later you
+    come across an unoccupied security station.  You step inside, hoping that someone
+    has left a blaster or something lying about.  They haven\u2019t.  However there
+    is a weapons locker here.  You try the door, but it is locked.  There is a control
+    panel on the front with a small keypad.  An access code is required to open it.\r\n\r\n1.
+    If you have a command code\n2. Otherwise, \r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 6a62dc626527ec24d9d337ce3d2385c6, type: 2}
+  - {fileID: 11400000, guid: c0acc22252ea9f74293e1abf453b1585, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State22
+  m_EditorClassIdentifier: 
+  storyText: "You throw yourself to the floor, the rocket tearing the air above you. 
+    Searing hot air washes over you, burning your exposed skin (lose 10 STAMINA). 
+    The rocket flies into the corridor you have just exited from and explodes far
+    enough away for you to escape further injury.\r\nHearing the clang of the dog\u2019s
+    paws on the deck, you ignore the pain and leap to you feet. You dash back into
+    the smoky corridor, running as fast as you can.\r\n\u201CRop!\u201D you hear
+    the dog-bot call after you.  \u201CRu rar ru re ra-rimirated.\u201D\r\nNot dissuaded
+    from your flight by this statement, you pound the deck with your feet and throw
+    yourself around another corner as another rocket blasts towards you.  You flee
+    unharmed through a shower of wall-pieces.  You hear the dog\u2019s paws clicking
+    the deck after you as you run through the corridors taking turns at random trying
+    to lose the explosively expressive pup.  \r\nYou run until exhausted and rest
+    inside a doorway.  You hear a distant whine (canine, not mechanical), but see
+    no further sign of the dog-bot.  You carefully make your way to the nearest lift
+    bay.  Only when you are inside do you feel safe.\r\nIf you have a medical kit,
+    you can apply salves to your burns now.  Each salve will take 1 minute to apply,
+    and will restore 4 points of STAMINA.  When you are ready, you press the button
+    to go up to the command deck.\r\n\r\n1. to continue\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: b7a56b35b3c8f614daa2feb90a179c7b, type: 2}

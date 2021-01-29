@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State54
+  m_EditorClassIdentifier: 
+  storyText: "Leaving the observation lounge and the parent-bot, you hurry down the
+    corridor.  You are sweating profusely, but the sweat evaporates off your skin
+    in moments.  Although the ship is yet to pass into the corona of the sun, the
+    heat is intense enough to start cooking you inside the ship like a loaf of bread
+    in a baking tin.\r\nAs you hurry along, you glance at the air conditioning vents. 
+    Can\u2019t someone turn on the cooling?  You see a computer panel ahead, and
+    dash up to it.\r\n\u201CComputer!\u201D you gasp.  \u201CTurn on the cooling!\u201D\r\n\u201CPlease
+    input command code,\u201D the computer asks politely.\r\n\r\n1. If you have a
+    command code,\r\n2. Otherwise,\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 535eab54a5efa444cb7ba877105337dd, type: 2}
+  - {fileID: 11400000, guid: cb509a5a880a1784f8279a741ff2411b, type: 2}

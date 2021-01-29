@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State21
+  m_EditorClassIdentifier: 
+  storyText: "Stepping out from the cover of the corridor, you smile at the dog-bot
+    and slap your thighs. \u201CHere, boy!\u201D\r\nThe dog-bot wheels about and
+    points its\u2019 head at you with a whirr and a beep. \u201CRarget ra-ryered,\u201D
+    the dog says (in a dog\u2019s voice).\r\n\u201CWhat\u2019s that boy?\u201D you
+    ask, a second before there is a whine (mechanical, not canine) and a burst of
+    fire and smoke indicates the launch of a rocket\u2026\r\n\r\nTest your LUCK.\r\n1.
+    If you are Lucky\n2. If you are Unlucky\n"
+  nextStates:
+  - {fileID: 11400000, guid: d83c48a2e36cdd642bd5cf45cb159384, type: 2}
+  - {fileID: 11400000, guid: a54778955a39514419c03e8e6389ed05, type: 2}

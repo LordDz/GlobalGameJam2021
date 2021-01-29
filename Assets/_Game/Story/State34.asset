@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State34
+  m_EditorClassIdentifier: 
+  storyText: "\u201CFine!  I\u2019ll come back with you!\u201D you say.  \u201CDon\u2019t
+    get a short-circuit!\u201D\r\n\u201CThat\u2019s better,\u201D the parent bot
+    responds, and the blasters start to fold away.  Seeing your opening, you quickly
+    draw the blaster and fire repeatedly at the robot.  Bright, hot globs of energy
+    sizzle through the air and explode against the parent-bob, knocking it down in
+    a shower of sparks.\r\nPleased, you blow the smoke away from the muzzle of your
+    weapon, feeling tough and cool.\r\n\r\n1. to continue\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 95043928fb81639499a877fc271dcab2, type: 2}

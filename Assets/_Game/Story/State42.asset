@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State42
+  m_EditorClassIdentifier: 
+  storyText: "\u201CDeactivate!\u201D you shout.\r\nImmediately, lights on the parent-bot\u2019s
+    head go dim and it sags, blaster arrays drooping harmlessly.  You march over
+    and give the robot a kick.  It feels good, so you kick it again.  Glancing out
+    the large window at the hot and hungry sun, you decide not to indulge yourself
+    any further.\r\nLooking at the unit, you wonder if you should damage it more
+    permanently while you have the chance.  Someone could come along and reactivate
+    it, meaning it will come after you again.  The parent-bot is protected by tantrum-proof
+    panelling, so you will not get far by bashing it.  There is an access panel to
+    its sensitive insides, but it is sealed by screws.\r\n\r\n1. If you have any
+    item(s) you think may be useful here\n2. otherwise.\n"
+  nextStates:
+  - {fileID: 11400000, guid: a829222455c799a43819a6da214867fb, type: 2}
+  - {fileID: 11400000, guid: 95043928fb81639499a877fc271dcab2, type: 2}

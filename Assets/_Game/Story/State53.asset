@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State53
+  m_EditorClassIdentifier: 
+  storyText: 'Your aim is poor and your blast goes awry.  You keep firing, but the
+    dog-bot fires back, its head engulfed in a cloud of smoke and flame as it fires
+    a rocket at you.  You duck back behind the barrels, a foolish and futile move
+    as the rocket ignites the barrels of fuel and a great explosion sends you to
+    a quick fiery death, sparing you the slow fiery death of falling into the sun.
+
+    
+
+    YOUR
+    ADVENTURE ENDS HERE
+
+
+    1. to start again'
+  nextStates:
+  - {fileID: 11400000, guid: 4cd391560fee67d44a65011e9dc945d3, type: 2}

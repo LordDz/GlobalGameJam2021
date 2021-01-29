@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State41
+  m_EditorClassIdentifier: 
+  storyText: 'You hurry along until you reach the end of the corridor, facing a junction. 
+    Each of the white-walled, metal-grid-floored, fluorescent-lit passages look identical.
+
+    
+
+    1.
+    To go right
+
+    2. To go left
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: a99caa4b4dceeab4c91611947235344a, type: 2}
+  - {fileID: 11400000, guid: d2bd552f572a88b48aea59d3e9ead4a1, type: 2}

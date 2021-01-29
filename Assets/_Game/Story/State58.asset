@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State58
+  m_EditorClassIdentifier: 
+  storyText: "You push open the doors and find yourself at the bottom of a wide,
+    carpeted stairway.  The single flight leads you up onto the floor of a large
+    dome that sits on the top of the ship like a bubble.  It is filled with deck
+    chairs allowing passengers a spectacular 360-degree view of the surrounding space.\r\nThe
+    view is somewhat ruined by the massive hot-burning star directly ahead, and you
+    quickly turn your attention to the two arguing men.  They are dressed as ships
+    stewards, in short maroon jackets and black pants with little black hats bearing
+    a maroon and gold band.  They seem oblivious to the danger, so you hurry over
+    to warn them.\r\n\u201CGentlemen!\u201D you say, interrupting them.  \u201CThe
+    ship is going to crash into that!  We have to get out!\u201D\r\nThe two stewards
+    look at you impatiently, not even following the direction of your urgent point. 
+    \u201CYes, yes!\u201D says one.  \u201CWe know!  That\u2019s why we have to get
+    this right before we can go!  Now stop bothering us!\u201D\r\nThey get back to
+    their argument, which seems to be about the correct positioning for the deckchairs
+    in the observation dome. Astounded that they would bother with such a thing,
+    you interrupt them again. \u201CAll these chairs will be burnt up when the ship
+    falls into the sun!  It doesn\u2019t matter what position they are in!\u201D\r\nThe
+    two of them look at you coldly.  \u201CDo we tell you how to do your job?\u201D
+    one asks you.\r\n\u201CNo, but-\u201C\r\n\u201CThen leave us to do ours!\u201D
+    thunders the other.\r\nThey turn away from you and start tugging at a deckchair,
+    fighting over its position.  Shaking your head, you leave them to their dispute
+    and hurry back out into the main corridor.\r\n\r\n1 to continue\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 7d973e4f2fb01b24a914af1a848f48b6, type: 2}

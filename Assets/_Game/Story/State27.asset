@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State27
+  m_EditorClassIdentifier: 
+  storyText: "You try to look meek and defeated, and the soldier takes his eyes off
+    you for a moment.  You lunge at him.  His reflexes are sharp and he snatches
+    up the stun-gun from his belt.  But you grab it as well, and grapple with him,
+    kicking and punching while keeping the stun-gun pointing away from you.\r\n\r\nIf
+    either you or the soldier roll a double number to win the round, then the winner
+    has managed to push the stun-gun towards the other and fire it, resulting in
+    instant victory for that party.\r\n\r\nSPACE PIRATE            SKILL 9      STAMINA
+    12\r\n\r\n1. If you reduce the pirate\u2019s STAMINA to 2 first\r\n2. If he reduces
+    your STAMINA to 2 first\n"
+  nextStates:
+  - {fileID: 11400000, guid: c560063951d3e244bb8cfeb423677fa0, type: 2}
+  - {fileID: 11400000, guid: 4201490518f5f9945b787df6d03aa4f9, type: 2}

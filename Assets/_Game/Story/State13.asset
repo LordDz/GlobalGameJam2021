@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State13
+  m_EditorClassIdentifier: 
+  storyText: "Not without difficulty, you reach into your pocket and manage to insert
+    your own ID into the slot in the chair arm.  You confirm that you are yourself
+    and create your command code.\r\n\u201CThank you.  You may now log in and take
+    command.\u201D\r\n\u201CFinally!\u201D you say. \u201CNow release me from this
+    chair!\u201D\r\nThe restraints disappear and you spring from the chair in relief. 
+    You stand on the bridge and put your hands on the steering wheel, the wooden
+    handles feeling reassuring in your grasp.\r\n\u201CComputer, turn us around!\u201D\r\n\u201CPlease
+    input command code.\u201D\r\n\u201C26.\u201D\r\n\u201CAccess granted.  Welcome,
+    captain.  What are your instructions?\u201D\r\n\u201CTurn the ship around!  Reverse
+    engines!  Get us out of danger!\u201D\r\n\u201CI\u2019m sorry, Navigational Command
+    is currently unavailable.  Please try again later.\u201D\r\n\u201CWa?  There
+    won\u2019t be a later!  What\u2019s wrong?\u201D\r\n\u201CA foreign entity has
+    diverted control of all major systems to Engineering.\u201D\r\n\u201CAll major
+    systems?\u201D you exclaim.  \u201CThen you can\u2019t do anything?\u201D\r\n\u201CNot
+    so.  I notice the viewscreen is uncomfortably bright.  Would you like me to dim
+    it for you?\u201D\r\n\u201CYes!\u201D you say.  Immediately the burning image
+    on the viewscreen dulls, allowing you too look upon the source of your impending
+    doom comfortably.  You feel no surge of pleasure at the power in your hands. 
+    \u201CGive me a list of all the systems I have control over.\u201D\r\n\u201CLighting
+    control, environmental control, public address system, end of list.\u201D\r\nFuming
+    at all the time you have wasted, you storm out of the bridge.  You run along
+    the corridor towards the lift.  The only thing to do now is to go to Engineering
+    yourself.\r\nStalking into the lift, the button with the X on it suffers the
+    sharp expression of your irritation as you pound in your selection.  The lift
+    makes no complaint and descends to the Engineering deck.\r\nWith a tone the doors
+    open and you step out into a corridor full of black-clad soldiers.  You retreat
+    back into the lift and frantically tap the close door button, then the other
+    buttons to get the lift to close its doors and start moving.\r\n\u201COi!\u201D
+    shouts one of the Space Pirates; by which he means \u2018remain where you are
+    so that you can be apprehended.\u2019  You keep raking the buttons as the doors
+    start to close; your way of saying: \u2018I am disinclined to do as you demand
+    and would rather depart with all haste!\u2019\r\nThe doors close, but not before
+    one of the soldiers slips through.  He whips out a blaster as he looms over you,
+    and in a fit of bravery, you grab hold of the blaster.  The two of you commence
+    to grapple.\r\n\r\nIf either you or the soldier roll a double number to win the
+    round, then the winner has managed to push the blaster towards the other and
+    fire it, resulting in instant victory for that party.\r\n\n1. If you reduce the
+    Pirate\u2019s STAMINA to 2 first\n2. If he reduces your STAMINA to 2 first\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: c560063951d3e244bb8cfeb423677fa0, type: 2}
+  - {fileID: 11400000, guid: 4201490518f5f9945b787df6d03aa4f9, type: 2}

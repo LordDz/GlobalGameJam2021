@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State60
+  m_EditorClassIdentifier: 
+  storyText: "From screens showing the rear view, you watch the great luxury cruiser
+    plummet into the blazing star.  Turning back to the front, you watch the stars
+    ahead.  Once you are far enough away from the sun, the computer will take the
+    ship into hyperspace and speed you back to G15-275 within a day.\r\nWith a sign
+    you think fondly of the dreary little planetoid.  You have had more than enough
+    adventure in your life already.  A quiet life on a backwater planetoid, that\u2019s
+    what you need!\r\nYou peace is disturbed by a warning tone, and a large vessel
+    suddenly looms before you.  A communications screen springs to life, and you
+    see there the concerned face of a beautiful woman, with luscious red lips, large
+    bright green eyes and waves of chestnut hair adorned with jade flowers.  Her
+    skin is also green, but she is none the less very easy on the eye.\r\n\u201CAh,
+    a human male!\u201D she exclaims with obvious delight.\r\n\u201CWhy, yes.  Yes
+    I am!\u201D you say, pleased in turn.\r\n\u201CYou must help us!  My name is
+    Bigones.  I represent queen Hotbutt of the planet Teeheehee.  We have been invaded
+    by an army of spiders!  Our race breeds asexually and is all female!  Yet we
+    have heard that human males can kill spiders!  Will you come and help us?\u201D\r\nHer
+    beautiful lips tremble, and tears spill from her eyes at the thought of the horrible
+    spiders.  \u201CUm,\u201D you say.  \u201CHow big are these spiders?\u201D\r\n\u201CSome
+    are reputed to be as much as 2 cm in size!\u201D\r\n\u201CAre they poisonous?\u201D\r\n\u201CNo,
+    but they are ugly and disgusting and creepy!\u201D\r\nA planet full of beautiful
+    women needing someone to rescue them from an army of small, non-poisonous spiders? 
+    Hmm.  You feel the need for adventure growing once more in your pants \u2013
+    I mean, in your heart.\r\n\r\nTHE END\r\n\n1. to start again"
+  nextStates:
+  - {fileID: 11400000, guid: 4cd391560fee67d44a65011e9dc945d3, type: 2}

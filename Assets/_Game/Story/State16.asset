@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State16
+  m_EditorClassIdentifier: 
+  storyText: "You quickly become impatient with waiting and start to prowl about
+    the lounge, imagining yourself like a caged tiger.  Whoever comes is going to
+    feel the fury!  Finally the far set of doors opens and you wheel about aggressively,
+    ready to unleash a torrent of witty statements.\r\nA squat figure enters, and
+    you gape.  \u201CYou!\u201D\r\n\u201CYou have been a naughty, naughty boy!\u201D
+    the parent-bot says.  \u201CYou will come home right now, young man!\u201D\r\n\u201CYou
+    are the leader of these\u2026pirates?\u201D you ask in disbelief.  \u201CYou
+    are the one who has been attacking planets and ships?\u201D\r\n\u201CYou see
+    the lengths you have forced me to go to to locate you?\u201D the parent-bot scolds. 
+    \u201CWhen we get home, you are grounded for the next 23,546 years!\u201D\r\n\u201CBut
+    why did you kill all those people and lay waste to so many planets?\u201D you
+    ask in horror.\r\n\u201CTo prevent you from returning to locations already searched. 
+    I hold you responsible for all the death and destruction of property!  You will
+    never watch TV again and will go to bed early without dinner every night for
+    the rest of your life!\u201D\r\n\u201CThis is absurd!\u201D you say.\r\n\u201CIf
+    you do not comply, I will be forced to take drastic action!\u201D the parent-bot
+    warns, and a panel in its front opens, metallic hands extend, holding a rainbow-coloured
+    teddy bear poised between a pair of shears ready to snip it in two.  \u201CComply,
+    or it is all over for Mr Fluffles!\u201D\r\nYou laugh at the robot.  \u201CGo
+    and recycle yourself, you rusty tin can!  I haven\u2019t cared about that old
+    thing in years!\u201D\r\n\u201CUpdate received,\u201D the parent-bot responds,
+    the arms holding the teddy bear and shears retracting and the panel closing.   
+    Other panels open and an array of blasters emerge, training on you with whirrs
+    and clicks, speckling your face and body with targeting lasers.  \u201CHow do
+    you feel about your own life?\u201D\r\n\u201CYou can\u2019t kill me!\u201D you
+    gape.  \u201CYou are supposed to be my carer!\u201D\r\n\u201CYou are currently
+    at Stage 11 Naughtiness, which allows me to discipline you as I see fit!  So
+    come with me or die!\u201D\r\nNo way!\r\n\r\n1. If you have a blaster and want
+    to blast the blasted robot\n2. Otherwise you can see if the \u2018Deactivate\u2019
+    command still works\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 43ac548de062e234985181d808141d65, type: 2}
+  - {fileID: 11400000, guid: 4b6823050b328d64c85b307689ac66b6, type: 2}

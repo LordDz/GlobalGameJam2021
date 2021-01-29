@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State17
+  m_EditorClassIdentifier: 
+  storyText: "The corridors on Deck A are so much more luxurious than you are accustomed
+    to.  Thick, soft carpet lies underfoot, and your way is lit by old-fashioned
+    brass and crystal wall lights.  Even the electronic touch screens are housed
+    in ornate, gilt frames, displaying standby images of oil painting landscapes.\r\nAlthough
+    you pause to brush off and straighten your coveralls; the opulent surrounds do
+    not deter you from your mission, and you hurry towards the bridge.  Following
+    the main corridor leads you past polished wooden doors, often set with gleaming
+    brass plaques.  \r\nAs you pass on set of doors, you skid to a stop, hearing
+    a pair of shrill, arguing voices within.  You glance at the plaque, which reads:
+    \u2018Observation Dome.\u2019\r\n\r\n1. If you want to enter the dome and see
+    who is arguing and about what\r\n2. If you would rather get on with saving your
+    life\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: ea025491149204848b988b133f064b8f, type: 2}
+  - {fileID: 11400000, guid: 7d973e4f2fb01b24a914af1a848f48b6, type: 2}

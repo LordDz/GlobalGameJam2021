@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State11
+  m_EditorClassIdentifier: 
+  storyText: "The soldier falls to the ground, dazed and confused.  You take your
+    chance and hit the button to halt the lift.  The doors open and you leap out
+    as the soldier struggles back to his feet and staggers after you.  \u201CWarning!
+    Fugitive loose on Deck P!\u201D you hear him shout into a communication link
+    before pursuing you.  A blaster blast blasts the plastic off a wall as you dive
+    around a corner.\r\n\u201CBlast it!\u201D the soldier swears as you disappear. 
+    \u201CFugitive last seen Section 2!\u201D\r\nNow the whole troop will be after
+    you.  You run along the corridor, trying the doors of a few numbered cabins,
+    but of course they are all locked.  You keep running, wishing there was a cabin
+    you could get into.\r\n\r\n1. If you know of one you can get into\r\n2. If there
+    isn\u2019t\n"
+  nextStates:
+  - {fileID: 11400000, guid: ccc72ac03771606418a8915bb004d929, type: 2}
+  - {fileID: 11400000, guid: d0ef58275a14cac4793179d0671bbee6, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State52
+  m_EditorClassIdentifier: 
+  storyText: "You shout your command code at it, then say: \u201CLower the internal
+    temperature of the ship now!  As cold as possible!\u201D\r\n\u201CYes captain,\u201D
+    the computer replies.  The next moment cold air begins to blow through a vent
+    nearby.  As seconds pass, it grows colder and colder, and you bask in icy relief
+    for a moment.  But you have won only a temporary reprieve, and hurry onwards.\r\nThe
+    corridor leads you to a loading bay, rows of large crates lying in neat rows. 
+    Of greater interest to you is the small ship standing nearby.  Of equal interest,
+    although much less welcome is the robotic guard dog sitting in front of the boarding
+    ramp. It has a large tube-like head that is clearly a rocket launcher.\r\n\r\n1.
+    If you have a blaster you can shoot the dog-bot\n2. If you want to try and sneak
+    around behind it and climb aboard the ship\n"
+  nextStates:
+  - {fileID: 11400000, guid: 4de00bc76d2b73b44b2565bcf8f27782, type: 2}
+  - {fileID: 11400000, guid: e3f4184529f856e40be6d6198dfd4586, type: 2}

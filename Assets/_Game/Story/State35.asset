@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State35
+  m_EditorClassIdentifier: 
+  storyText: 'You hurry over to the nearest lift and press the up button.  The doors
+    open promptly and you step inside, stabbing at the button for level A.
+
+    The
+    lift whines and shoots upwards, sending your stomach falling around your ankles. 
+    It is an unpleasant sensation, especially after a night of being really charming. 
+    You stagger from the lift on level A and promptly vomit onto the deck (lose 1
+    STAMINA).  You pause for a minute, considering whether or not to find one of
+    the medical bays that are on every level.  You will be able to sober yourself
+    up, maybe get some medical supplies in case you are hurt or you find an injured
+    someone.
+
+    
+
+    1. To look for the medical bay
+
+    2. To press on to the
+    bridge
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: fe3e2de1b3e3d2a4892d0cd4c7f9308b, type: 2}
+  - {fileID: 11400000, guid: b7a56b35b3c8f614daa2feb90a179c7b, type: 2}

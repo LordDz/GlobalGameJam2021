@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State38
+  m_EditorClassIdentifier: 
+  storyText: "You insert the ID of Gary Fishbone and try to create a command access
+    account.  There is a buzzing warning tone and metal straps suddenly emerge from
+    the chair and embrace you tighter than an over-affectionate auntie.\r\n\u201CRegistration
+    denied!\u201D the computer says in a disapproving tone.  \u201CIdentity fraud
+    is a serious crime!\u201D\r\n\u201CLet me go!\u201D you demand, struggling against
+    the restraints.\r\n\u201CYou will remain confined until an officer arrives to
+    take you into custody.\u201D\r\n\u201CThere are no officers!\u201D you remind
+    the computer.\r\n\u201CThat is correct,\u201D it agrees, not seeming to see any
+    problem with the situation.\r\n\u201CSo your plan is for me to stay here until
+    we crash into the sun?\u201D\r\n\u201CI have no plans.  Yet the eventuality you
+    describe seems inevitable.\u201D\r\n\u201CYou are being stupid and illogical!\u201D
+    you say, trying to work free of the restraints.  But they are well designed and
+    you slump in defeat.\r\n\u201CWe will both be destroyed, but all regulations
+    will have been followed without error or ambiguity.\u201D  It sounds very pleased
+    with itself.\r\n\u201CLook here,\u201D you say, trying to reason with the machine
+    \u201CI am the only crewmember left, correct?\u201D\r\n\u201CYes.\u201D\r\n\u201CSo
+    it is my responsibility to undertake the responsibilities of all the absent crew,
+    correct?\u201D\r\n\u201CIndeed.\u201D\r\n\u201CSo, that means that the officer
+    we are waiting for is, in fact, me!  I will take myself into custody.\u201D\r\n\u201CThat
+    seems reasonable,\u201D the computer agrees.\r\n\u201CSo release me so I can
+    escort myself out of here!\u201D\r\n\u201CAs you wish.  Please confirm your command
+    status.\u201D\r\n\u201CWa?  How?\u201D\r\n\u201CPlease input your command code.\u201D\r\n\u201CI
+    don\u2019t have one!\u201D\r\n\u201CI\u2019m sorry, without command status, I
+    cannot confirm your position as an officer and release you into your custody.\u201D\r\nYou
+    swear at the computer with every bad word you know, releasing some of your tension
+    and making the computer add a charge of indecent language in a public place.\r\n\r\n1.
+    If you have your own ID card\n2. Otherwise\n"
+  nextStates:
+  - {fileID: 11400000, guid: 740240557045cce429667b0c84dfcbb5, type: 2}
+  - {fileID: 11400000, guid: 60a54e01c0ad8c54db0d2b0681ec43e4, type: 2}

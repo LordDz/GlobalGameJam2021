@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State39
+  m_EditorClassIdentifier: 
+  storyText: "Deciding that the dog is trouble, you slip back into the corridor and
+    creep away as quiet as a six-foot mouse.  Reaching the lift you step back inside
+    and use your paw to press the button to take you up to the command deck.  The
+    doors close and the lift whooshes upwards at high speed.  Shaken, and a little
+    exhilarated you step out of the lift.\r\nThe corridors on Deck A are so much
+    more luxurious than you are accustomed to.  Thick, soft carpet lies underfoot,
+    and your way is lit by old-fashioned brass and crystal wall lights.  Even the
+    electronic touch screens are housed in ornate, gilt frames, displaying images
+    of oil painting landscapes while on standby.\r\nAlthough you pause to brush off
+    and straighten your coveralls; the opulent surrounds do not deter you from your
+    mission, and you hurry towards the bridge.  Following the main corridor leads
+    you past polished wooden doors, often set with gleaming brass plaques.  Finally
+    the corridor ends at a pair of doors bearing the designation: \u201CBridge.\u201D\r\nThe
+    doors open at your approach and you enter into the correctly labelled room. 
+    As you step inside, the first thing you notice is the bright light shining from
+    the front of the room where the large viewscreen fills the wall.  Light and heat
+    from the image of the sun directly ahead blaze upon you, making it difficult
+    to see.  You stumble inside, until your hands hit upon a polished wooden rail.\r\nShading
+    you eyes and squinting for good measure, you manage to see that the bridge is
+    a multi-layered affair, with rows of tiered consoles below you extending down
+    to the foot of the viewscreen. Where you stand is the highest tier, unoccupied
+    except for a large comfortable chair, with a quaint old sailing ships tiller
+    wheel before it.\r\nYou give the wheel a spin, hoping against hope that it is
+    more than ornamental.  The wheel spins easily, a testament to the loving care
+    bestowed upon its ball-bearings in the form of regular greasing.  However, apart
+    from testifying to the aforementioned loving care, the wheel is non-functional.\r\nGoing
+    over to the captain\u2019s chair, you sit down, feeling yourself settle into
+    the soft clasp of its silken cushions.  Your enjoyment of the chair does not
+    prevent you from scorning the decadence of the former captain, and after a moment\u2019s
+    indulgence, you get to the matter at hand.\r\n\u201CComputer,\u201D you say in
+    your most commanding voice.  \u201CChange course!\u201D\r\n\u201CWho is squeaking?\u201D
+    the computer asks politely.\r\n\u201CThe captain!  I am the captain now!\u201D
+    you announce.\r\n\u201CYes, sir,\u201D the computer agrees without any resistance. 
+    \u201CPlease input your command code.\u201D\r\n\u201CWa?  I don\u2019t have one,\u201D
+    you reveal, your voice trembling with the kind of uncertainty that has spawned
+    countless mutinies ever since men went to sea in groups together.\r\n\u201CNavigational
+    command requires command status,\u201D the computer tells you sympathetically.\r\n\u201CI
+    am the last crewmember left on board, am I not?\u201D you ask.\r\n\u201CYes,
+    sir,\u201D the computer agrees.\r\n\u201CThat makes me the captain now, doesn\u2019t
+    it?\u201D\r\n\u201CYes, captain.\u201D\r\n\u201CSo why don\u2019t I have command
+    status?\u201D you want to know.\r\n\u201CYou need to submit your CMN and apply
+    for command status.  If your application is successful, you will need to register
+    and create a command code.  Then you can login and take command.\u201D\r\n\u201CWhat\u2019s
+    a CMN?\u201D you ask, perplexed.\r\n\u201CCrew Member Number,\u201D the computer
+    informs you.  \u201CIt is the prominent number on your Crewmember Identification
+    Card.\u201D\r\nNow you are getting somewhere!  You reach into your pocket for
+    the card.  Not in that pocket.  You check the next likely pocket. Nothing.  You
+    check the remainder of your pockets with growing dread and dismay that reaches
+    a peak, then sends a wave of fear crashing down upon you, wiping you out and
+    dumping you upon the shore of frustration.\r\nYou know you had it with you last
+    night.  The card is used to make purchases from the funds in your on-board account. 
+    You had it at the club last night, purchasing the alcohol that was subsequently
+    poured down your throat, resulting in the state of extreme charm that you are
+    still recovering from.  You must have lost it in the dance club.\r\n\u201CBe
+    right back!\u201D you shout, springing up from the chair and dashing towards
+    the exit.  The opulent corridor sweeps past as you run towards the lift, pound
+    the button and hurl yourself into the small, vertically mobile room. You lift
+    your extended finger to press the button, yet it pauses, trembling in anticipation
+    of function.\r\nWhat floor was the dance club on?  There are 26 buttons, marked
+    A to Z.  You are always getting lost on this damn ship.  You can\u2019t even
+    remember the name of the dance club.\r\n\r\n1. If you know what floor you were
+    on  \n2. Otherwise,\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: ede3dd676468da046b4e6107d6bd3195, type: 2}
+  - {fileID: 11400000, guid: 7529726d6d3b94b469ee37cb1c9d6511, type: 2}

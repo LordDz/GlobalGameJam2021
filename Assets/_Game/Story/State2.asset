@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State2
+  m_EditorClassIdentifier: 
+  storyText: 'You stagger along until you find a wall screen and call up a map. 
+    Plotting your course, you set off, guiding lights in the floor leading you onwards. 
+    Eventually you arrive at a set of doors that whoosh open at your approach, and
+    you enter into a round chamber with a large reclining chair set on a swivel member
+    per '
+  nextStates:
+  - {fileID: 11400000, guid: b7a56b35b3c8f614daa2feb90a179c7b, type: 2}

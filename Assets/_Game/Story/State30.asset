@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State30
+  m_EditorClassIdentifier: 
+  storyText: "Going over to the corner of the room, you pull the lever and open the
+    hatch.  Lights automatically come on within, illuminating a narrow tube with
+    rungs extending from the sides.  You climb in and reach the hatch at the bottom,
+    kicking the lever to open the hatch.  You descend into an identical room below.\r\nNot
+    pausing, you open the next hatch and descend all the way down to deck X.  You
+    are exhausted by the time you arrive, but do not rest, feeling that time is running
+    out.  \r\nYou hurry through the maze of service corridors, and then out into
+    the main passages.  You find the Engineering Control Room, but hear voices inside. 
+    Footsteps suddenly approach, and you slip through a nearby doorway into an observation
+    lounge.  Even before you reach over to the control panel to close the doors,
+    they slide shut and lock.\r\nYou hit the panel in surprise, but it remains a
+    baleful red.  You have been trapped!  You hurry over to the door at the other
+    end, but it is locked as well.  You thump the walls in frustration, but having
+    no other choice settle yourself to wait.\r\n\r\n1. to continue\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: cbc3b65b648eb1e45b874155e38cee9c, type: 2}

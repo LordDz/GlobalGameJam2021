@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State14
+  m_EditorClassIdentifier: 
+  storyText: "You take out the ID and show it to the soldier.  He snatches it, quite
+    unnecessarily, and stares at it.  \u201CThis doesn\u2019t look like you!\u201D\r\n\u201CI
+    know,\u201D you say shaking your head in disgust.  \u201CI had the surgery over
+    a month ago, but those incompetents in personnel still haven\u2019t updated my
+    card!\u201D\r\n\u201CYou went from this,\u201D the soldier holds up the photo
+    on the card,\u201D to that?\u201D he points at your own face.\r\nHe seems sceptical. 
+    \u201CWhat do you mean?\u201D you ask, somewhat offended.\r\n\u201CThat\u2019s
+    like trading in a sports car for a skateboard!\u201D the soldier says.  \u201CAre
+    you going to sue the surgeon for malpractice?\u201D\r\n\u201CI\u2019m not ugly!\u201D
+    you protest.\r\n\u201CGet yourself a mirror, then a lawyer,\u201D the soldier
+    quips.  The others laugh \r\n\u201CMy mother always told me I was handsome!\u201D
+    you insist.\r\n\u201CThat was nice of her,\u201D says another soldier  \r\nThey
+    make fun of you for a while longer, making many hurtful comments (reduce your
+    STAMINA by 1), then let you go.  Before they continue onwards, one of the soldiers
+    says: \u201CBy the way, the ship is about to plunge into the local sun.  Best
+    find a way out of here.\u201D\r\n\u201CCan I come with you?\u201D you ask.\r\n\u201CNot
+    with a face like that,\u201D one says, causing the others to laugh.  \r\nThey
+    move off, and you hurry in the opposite direction.  You soon reach the bridge
+    and jump into the captain\u2019s chair.\r\n\u201CI\u2019m back!\u201D you declare. 
+    \u201CNow what do I do?\u201D\r\n\u201CPlease insert your ID card,\u201D says
+    the computer.\r\nThe cushioned armrest suddenly opens into a computer panel,
+    including a card-sized slot.\r\n\r\n1. If you have your own ID and what to insert
+    it\r\n2. If you want to use Gary Fishbone\u2019s ID\n"
+  nextStates:
+  - {fileID: 11400000, guid: dae6644f40541fb4eb17c6fd4dd89e6d, type: 2}
+  - {fileID: 11400000, guid: 2df86bb3b74ef8d408dbc2dbad894f27, type: 2}

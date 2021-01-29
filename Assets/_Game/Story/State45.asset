@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State45
+  m_EditorClassIdentifier: 
+  storyText: "Looking at the soldier sympathetically, you say: \u201CIt\u2019s ok. 
+    You don\u2019t have to pretend with me.\u201D\r\n\u201CHuh?\u201D the soldier
+    says, a little taken aback.  Then he remembers that he is the one holding the
+    blaster that is thrust into your chest.  \u201CLess talk, more ID!\u201D\r\nYou
+    shake your head sadly.  \u201CI don\u2019t want to embarrass you in front of
+    your friends about\u2026well, you know.  You should be very proud of what you\u2019ve
+    achieved already.\u201D\r\n\u201CWhat are you babbling about?\u201D the soldier
+    demands.\r\n\u201CYou know,\u201D you lower your voice to a whisper.  \u201CAbout
+    not being able to read.\u201D\r\n\u201CI can read, space-brain!\u201D the soldier
+    insists.  \u201CWhat do you think I am?\u201D\r\n\u201CAren\u2019t you a shaved
+    gorilla?\u201D\r\nThe soldier grabs you around the neck.  \u201CYou having a
+    go at me?\u201D\r\n\u201CNot at all!\u201D you wheeze.  \u201CI admire greatly
+    what you\u2019ve been able to accomplish since leaving the jungle!\u201D\r\nSensing
+    a homicidal inclination developing in the soldier, you desperately try to think
+    of more witty things to say before it\u2019s too late.\r\nBefore you can speak,
+    or get shot, one of the soldiers holding your arm speaks.  \u201CDon\u2019t kill
+    him.  He could be the one where\u2019re after.  He matches the physical description.\u201D\r\n\u201CSo
+    have 1000s of others!\u201D the soldier holding your neck spits; an unfortunate
+    form of expression since he is wearing a visor over his face.  \u201CThe queen
+    wouldn\u2019t waste an algorithm on a waste-of-space like this!\u201D\r\nThe
+    soldiers discus the matter for a while, while you concentrate on breathing between
+    the soldier\u2019s fingers.  Eventually they decide to take you back for \u2018inspection\u2019.
+    The soldier holding your neck claims he can take \u2018the pipsqueak\u2019 back
+    unaided, so the others unhand you and continue on their way.\r\nThe soldier releases
+    you with a shove, and then raises his blaster.  \u201CRun, and I\u2019ll shoot
+    you down like a dog!\u201D\r\nYou briefly consider pointing out that far more
+    human beings are shot annually than dogs.  And rather than being the norm, most
+    dogs are well-treated, as cruel treatment, including shootings, are illegal under
+    every jurisdiction in the known universe apart from the planet Purros, which
+    is populated by an intelligent feline race that is famous for yarn production
+    and barbarous public dog torturing.\r\nInstead, you just rub your neck and continue
+    on your way.  You are directed into the lift and the soldier presses the button
+    for level X, the main engineering deck.  As the lift descends, the soldier removes
+    his helmet to clean off the spittle from inside the visor.  He gives you a glare
+    that warns you not to try anything.\r\n\r\n1. To try something\r\n2. To remain
+    passive\n"
+  nextStates:
+  - {fileID: 11400000, guid: 1d44a2f2df528fb47a766d13aadebb75, type: 2}
+  - {fileID: 11400000, guid: 033db4ec069170c4da66e1d78c132e87, type: 2}

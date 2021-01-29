@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State25
+  m_EditorClassIdentifier: 
+  storyText: "You search about, and on the edge of the dance floor find a phone number
+    on a crumpled up piece of paper.  You chuckle as you imagine some hopeful young
+    man handing over his phone number to a pretty young thing, only to have it crumpled
+    up and unobtrusively dropped to the floor minutes later.  5252 5252.  Wait a
+    minute, that\u2019s your phone number!\r\nSuddenly the scenario you imagined
+    isn\u2019t funny at all.\r\n\r\n1. If you are ready to leave the club, turn to
+    23\r\n\r\nOtherwise:\r\n\r\nWhere would you like to search?\r\n2. To search under
+    the tables, turn to 4\r\n3. To seek within the Private Booths, turn to 37\r\n4.
+    To examine the stairway leading to the second level, turn to 48\r\n5. To look
+    about the Bar, turn to 51\r\n6. To quest in the Chill-out Lounge, turn to 55\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 129029fbf82df464d9819c20ee184292, type: 2}
+  - {fileID: 11400000, guid: 2a08cd5f57e84ff4381af61ad5950f28, type: 2}
+  - {fileID: 11400000, guid: 9820e57713dcf344f84242af40b2d259, type: 2}
+  - {fileID: 11400000, guid: c06999002e0d61f4aa388ed18ad3fbba, type: 2}
+  - {fileID: 11400000, guid: 2bf5a1eaa69be0e4488ae611d6252b87, type: 2}
+  - {fileID: 11400000, guid: e95e5d070668c8241af7027894b4555c, type: 2}

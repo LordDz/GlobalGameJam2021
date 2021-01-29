@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State44
+  m_EditorClassIdentifier: 
+  storyText: "Taking out the programming manual, you select the relevant chapter
+    and enlighten yourself with the words that appear.  With a new understanding
+    you press buttons, turn dials, flick switches, pull levels and spin the crank. 
+    This resets the parent-bot to \u2018spoiling\u2019.\r\nYou replace the panel
+    and reactivate the unit.  It gives itself a shake, then turns to you.  \u201COh,
+    dear!  You look terrible!  What can I do for you?\u201D  Six arms extend from
+    holes in the sides of the unit, holding a handkerchief, a lollypop, a warm coat,
+    a storybook, a bottle of milk, and Mr Fluffles.\r\n\u201CWe need to escape from
+    here right now,\u201D you say.  \u201CThis ship is about to plunge into the sun!\u201D\r\n\u201COh,
+    dear!  A ship this size will not be able to escape the gravity well with only
+    its reverse thrusters!  I must find you another ship!\u201D  The comforts disappear,
+    and the robot trundles back towards the door where it first came.\r\nYou follow
+    after it, and it opens the door, but goes no further.  Turning to you, it says:
+    \u201CFollow this corridor to the loading bay.  There you will find a vessel. 
+    I have programmed it to take you to safety.  You need only give the command \u2018go
+    mo\u2019 to activate the autopilot.  I will stay here.  Go on without me.  I
+    will only slow you down.  I have lived a full life.\u201D\r\n\u201COk,\u201D
+    you shrug, and run down the corridor as quickly as you can.\r\n\r\n1 to continue\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 95043928fb81639499a877fc271dcab2, type: 2}

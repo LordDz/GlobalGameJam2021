@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State40
+  m_EditorClassIdentifier: 
+  storyText: "Trapped in the chair, you shout and cry as the air around you gets
+    hotter and hotter.  You are baked as the plastic around you melts, but pass out
+    long before the metal glows hot and your ship plunges into the sun as a molten
+    glob.\r\n\r\nYOUR ADVENTURE ENDS HERE\r\n 1. to start again"
+  nextStates:
+  - {fileID: 11400000, guid: 4cd391560fee67d44a65011e9dc945d3, type: 2}

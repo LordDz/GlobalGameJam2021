@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: State6
+  m_EditorClassIdentifier: 
+  storyText: 'You take the right corridor, and soon come upon an unobtrusive doorway
+    that leads to a service corridor.  The service corridors allow types such as
+    yourself to move about and access systems without having to offend the high-class
+    passengers with your impecunious presence.  Thumping the panel, you enter the
+    narrow corridor and close the door behind you.  The service corridor runs at
+    right angles and takes you to a small room that is an intersection of four service
+    corridors.
+
+    In one corner is a ladder between hatches in the ceiling and
+    floor.  The access tubes between decks will allow you to climb safely between
+    decks rather than risking the lifts.  There is also a supply locker here, and
+    you consider taking the time to search for something useful.
+
+    
+
+    1.
+    To take the time to search the locker
+
+    2. To move on quickly
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 6a62dc626527ec24d9d337ce3d2385c6, type: 2}
+  - {fileID: 11400000, guid: faf4d4ddb54177347a2d204e31183d78, type: 2}
