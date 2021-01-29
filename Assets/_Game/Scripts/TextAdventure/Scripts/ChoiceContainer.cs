@@ -29,13 +29,12 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
                 btn.Init(this, nr);
                 nr++;
             }
-            NextState(0);
         }
 
         public void SetTalk(State talkState)
         {
             state = talkState;
-            NextState(0);
+            FixBtns();
         }
 
 
@@ -47,14 +46,15 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             SetChosenDialogue(StatMood.happiness, title);
             var nextStates = state.GetNextStates();
             state = nextStates[nr];
-            FixBtns(nextStates);
+            FixBtns();
         }
 
         private void SetChosenDialogue(StatMood mood, string text)
         {
             Color colorText = StatsSettings.GetMoodColor(mood);
             ChosenDialogue.color = colorText;
-            ChosenDialogue.text = text.Length >0 ? "*" + text + "*" : "";
+            ChosenDialogue.text = text.Length > 0 ? "*" + text + "*" : "";
+            FixBtns();
         }
 
         private void PlayVoiceClip(int nr)
@@ -68,11 +68,10 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             }
         }
 
-        private void FixBtns(State[] nextStates)
+        private void FixBtns()
         {
             textComponent.text = state.GetStateStory();
             var titles = state.GetNextTitles();
-            Debug.Log("titles length: " + titles.Length);
             int nrOfStates = titles.Length;
 
             for (var i = 0; i < listBtns.Length; i++)

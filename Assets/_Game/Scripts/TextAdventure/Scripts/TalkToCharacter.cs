@@ -7,6 +7,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
     {
         State currentState;
         [SerializeField] State startingState;
+        [SerializeField] GameObject outline;
 
         ChoiceContainer choiceContainer;
         DialogueUI dialogueUI;
@@ -20,6 +21,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             choiceContainer = FindObjectOfType<ChoiceContainer>();
             dialogueUI = FindObjectOfType<DialogueUI>();
             currentState = startingState;
+            outline.SetActive(false);
         }
 
         // Update is called once per frame
@@ -34,6 +36,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         private void TalkToPlayer()
         {
             hasStartedTalking = true;
+            outline.SetActive(false);
             dialogueUI.ShowUI();
             choiceContainer.SetTalk(currentState);
         }
@@ -41,11 +44,21 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         private void OnTriggerEnter2D(Collider2D collision)
         {
             playerIsNearby = true;
+
+            if (!hasStartedTalking)
+            {
+                outline.SetActive(true);
+            }
         }
 
         private void OnTriggerExit2D(Collider2D collision)
         {
             playerIsNearby = false;
+
+            if (!hasStartedTalking)
+            {
+                outline.SetActive(false);
+            }
         }
     }
 }

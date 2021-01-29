@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using RPGM.Gameplay;
+using RPGM.UI;
+using System.Collections;
 using UnityEngine;
 
 namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
@@ -6,25 +8,24 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
     public class DialogueUI : MonoBehaviour
     {
         // Use this for initialization
+        InputController inputController;
+
         void Start()
         {
+            inputController = FindObjectOfType<InputController>();
             HideUI();
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
         }
 
         public void ShowUI()
         {
             this.gameObject.SetActive(true);
+            inputController.SetAllowMovement(false);
         }
 
         public void HideUI()
         {
             this.gameObject.SetActive(false);
+            inputController.SetAllowMovement(true);
         }
     }
 }

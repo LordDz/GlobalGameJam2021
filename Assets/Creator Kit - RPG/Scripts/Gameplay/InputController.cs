@@ -11,6 +11,7 @@ namespace RPGM.UI
     {
         public float stepSize = 0.1f;
         GameModel model = Schedule.GetModel<GameModel>();
+        private bool isAllowedToMove = true;
 
         public enum State
         {
@@ -49,6 +50,7 @@ namespace RPGM.UI
 
         void CharacterControl()
         {
+            if (!isAllowedToMove) return;
             if (Input.GetKey(KeyCode.UpArrow))
                 model.player.nextMoveCommand = Vector3.up * stepSize;
             else if (Input.GetKey(KeyCode.DownArrow))
@@ -59,6 +61,11 @@ namespace RPGM.UI
                 model.player.nextMoveCommand = Vector3.right * stepSize;
             else
                 model.player.nextMoveCommand = Vector3.zero;
+        }
+
+        public void SetAllowMovement(bool allow)
+        {
+            isAllowedToMove = allow;
         }
     }
 }
