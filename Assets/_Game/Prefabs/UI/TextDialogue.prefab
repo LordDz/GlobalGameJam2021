@@ -352,6 +352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4365606666910190029}
+  - component: {fileID: 3760243329914863236}
   m_Layer: 5
   m_Name: TextDialogue
   m_TagString: Untagged
@@ -385,6 +386,18 @@ RectTransform:
   m_AnchoredPosition: {x: 340.9889, y: 0}
   m_SizeDelta: {x: 369.0223, y: 591}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3760243329914863236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4365606666910190026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b80a5d173b717468735f3a9f869beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4365606667419153462
 GameObject:
   m_ObjectHideFlags: 0
