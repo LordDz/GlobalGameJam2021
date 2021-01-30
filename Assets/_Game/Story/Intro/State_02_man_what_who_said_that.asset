@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: The wall tells you to not stare at it
   nextTitles:
-  - What? Who... who said that?
+  - <color=#ff0000ff>What? Who... who said that?</color>
+  nextSpeaker: 0
   nextClips:
   - {fileID: 8300000, guid: 4ee41dd3b2097cf4f814ac6dfb98da10, type: 3}
   nextStates:

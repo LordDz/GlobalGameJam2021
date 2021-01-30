@@ -1,11 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using ggj.Assets._Game.Scripts.Stats;
 using UnityEngine;
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
     [TextArea(10,14)][SerializeField] string storyText;
-    [SerializeField] string[] nextTitles;
+    [TextArea(3, 2)][SerializeField] string[] nextTitles;
+    [SerializeField] TextSpeaker nextSpeaker;
     [SerializeField] AudioClip[] nextClips;
     [SerializeField] State[] nextStates;
 
@@ -31,5 +31,25 @@ public class State : ScriptableObject
     {
         return nextStates;
     }
- 
+
+    public string GetSpeakerColor()
+    {
+        switch (nextSpeaker)
+        {
+            case TextSpeaker.man:
+                return "#f0eded";
+            case TextSpeaker.voice1:
+                return "#eef0ed";
+            case TextSpeaker.voice2:
+                return "#edeef0";
+            case TextSpeaker.drugdealer1:
+                return "#7d7d7d";
+            case TextSpeaker.drugdealer2:
+                return "#0aff3b";
+            case TextSpeaker.nobody:
+                return "#0aff3b";
+        }
+        return Color.red.ToString();
+    }
+
 }

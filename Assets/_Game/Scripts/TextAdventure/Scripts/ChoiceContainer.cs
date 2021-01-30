@@ -1,7 +1,4 @@
 ﻿using ggj.Assets._Game.Scripts.Intro;
-using ggj.Assets._Game.Scripts.Stats;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -43,7 +40,8 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             PlayVoiceClip(nr);
             var titles = state.GetNextTitles();
             var title = titles.Length > nr && titles[nr] != null ? titles[nr] : "...";
-            SetChosenDialogue(StatMood.happiness, title);
+            var textColor = state.GetSpeakerColor();
+            SetChosenDialogue(textColor, title);
             var nextStates = state.GetNextStates();
             if (nextStates != null && nextStates.Length > 0 && nextStates.Length > nr)
             {
@@ -57,10 +55,10 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             }
         }
 
-        private void SetChosenDialogue(StatMood mood, string text)
+        private void SetChosenDialogue(string textColor, string text)
         {
-            Color colorText = StatsSettings.GetMoodColor(mood);
-            textBox.text += text.Length > 0 ? "\n\n*" + text + "*" : "\n\n";
+            var textColored = "<color=" + textColor + ">" + text + "</color>";
+            textBox.text += text.Length > 0 ? "\n\n" + textColored + "" : "\n\n";
             FixBtns();
         }
 
@@ -79,6 +77,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         {
             //textComponent.text = state.GetStateStory();
             var titles = state.GetNextTitles();
+            var textColor = state.GetSpeakerColor();
             int nrOfStates = titles.Length;
 
             for (var i = 0; i < listBtns.Length; i++)
@@ -89,7 +88,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
                     listBtns[i].GetComponent<Button>().enabled = true;
                     listBtns[i].GetComponent<Image>().enabled = true;
                     listBtns[i].GetComponentInChildren<Text>().enabled = true;
-                    listBtns[i].SetText(StatMood.happiness, titles[i]);
+                    listBtns[i].SetText(textColor, titles[i]);
                 }
                 else
                 {

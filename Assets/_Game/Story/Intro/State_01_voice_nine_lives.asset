@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: 
   nextTitles:
-  - That's because you only have one of your nine lives left
+  - <color=#d8de2c>That's because you only have one of your nine lives left</color>
+  nextSpeaker: 1
   nextClips:
   - {fileID: 8300000, guid: 7683b30f3aad0e440936559ed005f551, type: 3}
   nextStates:

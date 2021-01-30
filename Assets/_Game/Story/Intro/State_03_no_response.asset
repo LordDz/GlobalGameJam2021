@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: 
   nextTitles:
-  - ....
+  - <color=#ff0000ff>...There is no response....</color>
+  nextSpeaker: 0
   nextClips: []
   nextStates: []

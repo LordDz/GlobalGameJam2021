@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: 
   nextTitles:
-  - My head... It hurts... Why does it hurt?
+  - <color=#ff0000ff>My head... It hurts... Why does it hurt?</color>
+  nextSpeaker: 0
   nextClips:
   - {fileID: 8300000, guid: 13732fec4b18c494580a56f2eeefa357, type: 3}
   nextStates:

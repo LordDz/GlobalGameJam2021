@@ -1,5 +1,4 @@
-﻿using ggj.Assets._Game.Scripts.Stats;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -21,10 +20,8 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             this.choiceContainer = choiceContainer;
         }
 
-        public void SetText(StatMood mood, string text)
+        public void SetText(string textColor, string text)
         {
-            Color colorText = StatsSettings.GetMoodColor(mood);
-            buttonText.color = colorText;
             buttonText.text = text;
         }
 
@@ -40,7 +37,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            buttonText.fontStyle = FontStyle.BoldAndItalic;
+            buttonText.fontStyle = FontStyle.Italic;
         }
 
         public void OnPointerExit(PointerEventData eventData)
