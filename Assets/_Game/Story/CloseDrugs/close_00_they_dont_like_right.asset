@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: close_00_they_dont_like_right
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: Why am I here? I can''t remember coming here... wait.
+    Is this how my hands look?</color>
+
+
+    *The man looks at his hands. And then
+    they touch their own face and body. When they touch their trousers they feel
+    that there are some objects in the pockets*'
+  nextTitles:
+  - <color=#ff0000ff>Why am I here? I can't remember coming here... wait. Is this
+    how my hands look?</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: 059f3582559567643905b247482195e6, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 1714e6ddd3134df45a89009e5867d08c, type: 2}

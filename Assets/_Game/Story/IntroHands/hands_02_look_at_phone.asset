@@ -16,8 +16,12 @@ MonoBehaviour:
   - Wrong code.
   - Wrong code.
   - Wrong code.
-  - The man looks at the things in his pockets, should he continue checking them
-    out or continue walking?
+  - '<color=#ff0000ff>Man: "Its disabled. It says try again in 1 minute.</color>
+
+
+    The
+    man looks at the things in his pockets, should he continue checking them out
+    or continue walking?'
   nextTitles:
   - 199806
   - 123456
