@@ -3,20 +3,19 @@ using UnityEngine.UI;
 
 namespace ggj.Assets._Game.Scripts.Intro
 {
-    public class FadeButton : MonoBehaviour
+    public class FadeImageIn : MonoBehaviour
     {
         bool hasFadedIn = false;
-        Text text;
         Image image;
-        float increase = 0.2f;
+        float increase = -0.5f;
 
         // Use this for initialization
         void Start()
         {
-            text = GetComponentInChildren<Text>();
+            //text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
+            //image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
             image = GetComponent<Image>();
-            text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
-            image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
+            this.enabled = false;
         }
 
         // Update is called once per frame
@@ -30,10 +29,9 @@ namespace ggj.Assets._Game.Scripts.Intro
 
         private void FadeIn()
         {
-            text.color = new Color(text.color.r, text.color.g, text.color.b, text.color.a + increase * Time.deltaTime);
             image.color = new Color(image.color.r, image.color.g, image.color.b, image.color.a + increase * Time.deltaTime);
             
-            if (text.color.a >= 1)
+            if (image.color.a >= 1)
             {
                 hasFadedIn = true;
             }

@@ -1,54 +1,53 @@
 ﻿using ggj.Assets._Game.Scripts.TextAdventure.Scripts;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace ggj.Assets._Game.Scripts.Intro
 {
-    public class FadeDialogueUI : MonoBehaviour
+    public class FadeDialogueUIOut : MonoBehaviour
     {
-        bool hasFadedIn = false;
+        bool hasFadedOut = false;
         [SerializeField] Image imageBg;
         [SerializeField] Image imageBorder;
         [SerializeField] Text text;
-
-        [SerializeField] ChoiceContainer choiceContainer;
+        [SerializeField] FadeImageIn fadeInEffect;
 
 
         DialogueUI dialogueUI;
-        float increase = 0.5f;
+        float increase = -0.5f;
 
         void Start()
         {
             dialogueUI = GetComponent<DialogueUI>();
-            choiceContainer.gameObject.SetActive(false);
 
-            imageBg.color = new Color(imageBg.color.r, imageBg.color.g, imageBg.color.b, 0);
-            imageBorder.color = new Color(imageBorder.color.r, imageBorder.color.g, imageBorder.color.b, 0);
-            text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
+            //imageBg.color = new Color(imageBg.color.r, imageBg.color.g, imageBg.color.b, 0);
+            //imageBorder.color = new Color(imageBorder.color.r, imageBorder.color.g, imageBorder.color.b, 0);
+            //text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
+            this.enabled = false;
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (!hasFadedIn)
+            if (!hasFadedOut)
             {
-                FadeIn();
+                FadeOut();
             }
         }
 
-        private void FadeIn()
+        private void FadeOut()
         {
             text.color = new Color(text.color.r, text.color.g, text.color.b, text.color.a + increase * Time.deltaTime);
             imageBg.color = new Color(imageBg.color.r, imageBg.color.g, imageBg.color.b, imageBg.color.a + increase * Time.deltaTime);
             imageBorder.color = new Color(imageBorder.color.r, imageBorder.color.g, imageBorder.color.b, imageBorder.color.a + increase * Time.deltaTime);
-            
-            if (text.color.a >= 1)
+
+            fadeInEffect.enabled = true;
+
+            if (text.color.a <= 0)
             {
-                hasFadedIn = true;
+                hasFadedOut = true;
                 this.enabled = false;
-                choiceContainer.gameObject.SetActive(true);
-                choiceContainer.NextState(0);
+                dialogueUI.HideUI();
             }
         }
     }
