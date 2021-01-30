@@ -19,13 +19,19 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         public void ShowUI()
         {
             this.gameObject.SetActive(true);
-            inputController.SetAllowMovement(false);
+            if (inputController)
+            {
+                inputController.SetAllowMovement(false);
+            }
         }
 
         public void HideUI()
         {
             this.gameObject.SetActive(false);
-            inputController.SetAllowMovement(true);
+            if (inputController)
+            {
+                inputController.SetAllowMovement(true);
+            }
         }
     }
 }
