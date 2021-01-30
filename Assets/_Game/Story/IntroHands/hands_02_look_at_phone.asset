@@ -12,11 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
   m_Name: hands_02_look_at_phone
   m_EditorClassIdentifier: 
-  storyText: 
+  desc:
+  - Wrong code.
+  - Wrong code.
+  - Wrong code.
+  - The man looks at the things in his pockets, should he continue checking them
+    out or continue walking?
   nextTitles:
-  - <color=#ff0000ff>My head... It hurts... Why does it hurt?</color>
+  - 199806
+  - 123456
+  - 300111
+  - Return to the other objects.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 13732fec4b18c494580a56f2eeefa357, type: 3}
+  - {fileID: 8300000, guid: 7188f3b3ad28d424da2f3b8f484bcbb4, type: 3}
+  - {fileID: 8300000, guid: 7188f3b3ad28d424da2f3b8f484bcbb4, type: 3}
+  - {fileID: 8300000, guid: 7188f3b3ad28d424da2f3b8f484bcbb4, type: 3}
+  - {fileID: 8300000, guid: edee03e68b186824d856c566b7b324c5, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: 0d8adeeb10191b04ab8ec1ab7c4675b1, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 84536dde1538d154e922b23f8d980d58, type: 2}

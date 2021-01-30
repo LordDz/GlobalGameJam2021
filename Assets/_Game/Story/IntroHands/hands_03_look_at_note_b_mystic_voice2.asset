@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: hands_03_look_at_note
+  m_Name: hands_03_look_at_note_b_mystic_voice2
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff00a2>Voice: It means: don''t feel any sorrow. It''s Swedish.</color>'
+  - 'There is no response.
+
+
+    The man looks at his objects again.'
   nextTitles:
-  - '<color=#ff00a2>It means: don''t feel any sorrow. It''s Swedish.</color>'
+  - ...
   nextSpeaker: 0
-  nextClips:
-  - {fileID: 8300000, guid: bf7e7e66bcbc04a48b1824225ef5b43b, type: 3}
+  nextClips: []
   nextStates:
-  - {fileID: 11400000, guid: 1e29dafeb77c89548a8fc65c3167e457, type: 2}
+  - {fileID: 11400000, guid: 84536dde1538d154e922b23f8d980d58, type: 2}
