@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
   m_Name: StartState
   m_EditorClassIdentifier: 
-  storyText: 
+  desc:
+  - My head hurts.. Why?
   nextTitles:
   - My head hurts.. Why?
+  nextSpeaker: 0
   nextClips:
   - {fileID: 8300000, guid: 13732fec4b18c494580a56f2eeefa357, type: 3}
   nextStates:

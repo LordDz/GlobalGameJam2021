@@ -29,6 +29,11 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             }
         }
 
+        public void ClearText()
+        {
+            textBox.text = "";
+        }
+
         public void SetTalk(State talkState)
         {
             state = talkState;
@@ -39,9 +44,12 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         {
             PlayVoiceClip(nr);
             var titles = state.GetNextTitles();
+            var descriptions = state.titleDescriptions();
             var title = titles.Length > nr && titles[nr] != null ? titles[nr] : "...";
+            var desc = descriptions.Length > nr && descriptions[nr] != null ? descriptions[nr] : "...";
+            var textDescription = titles.Length > nr && titles[nr] != null ? titles[nr] : "...";
             var textColor = state.GetSpeakerColor();
-            SetChosenDialogue(textColor, title);
+            SetChosenDialogue(textColor, desc);
             var nextStates = state.GetNextStates();
             if (nextStates != null && nextStates.Length > 0 && nextStates.Length > nr)
             {
@@ -58,7 +66,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         private void SetChosenDialogue(string textColor, string text)
         {
             var textColored = "<color=" + textColor + ">" + text + "</color>";
-            textBox.text += text.Length > 0 ? "\n\n" + textColored + "" : "\n\n";
+            textBox.text = text.Length > 0 ? "\n\n" + textColored + "" : "\n\n";
             FixBtns();
         }
 

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
   m_Name: State_01_voice_nine_lives
   m_EditorClassIdentifier: 
-  storyText: 
+  desc:
+  - '<color=#d8de2c>Voice: That''s because you only have one of your nine lives left</color>'
   nextTitles:
   - <color=#d8de2c>That's because you only have one of your nine lives left</color>
   nextSpeaker: 1

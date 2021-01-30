@@ -50,7 +50,7 @@ namespace RPGM.UI
 
         void CharacterControl()
         {
-            if (!isAllowedToMove) return;
+            if (!isAllowedToMove) model.player.nextMoveCommand = Vector3.zero;
             if (Input.GetKey(KeyCode.UpArrow))
                 model.player.nextMoveCommand = Vector3.up * stepSize;
             else if (Input.GetKey(KeyCode.DownArrow))

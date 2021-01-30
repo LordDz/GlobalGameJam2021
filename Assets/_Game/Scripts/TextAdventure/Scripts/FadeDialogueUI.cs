@@ -14,18 +14,30 @@ namespace ggj.Assets._Game.Scripts.Intro
 
         [SerializeField] ChoiceContainer choiceContainer;
 
+        State changeState;
 
-        DialogueUI dialogueUI;
+
         float increase = 0.5f;
 
         void Start()
         {
-            dialogueUI = GetComponent<DialogueUI>();
             choiceContainer.gameObject.SetActive(false);
 
             imageBg.color = new Color(imageBg.color.r, imageBg.color.g, imageBg.color.b, 0);
             imageBorder.color = new Color(imageBorder.color.r, imageBorder.color.g, imageBorder.color.b, 0);
             text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
+        }
+
+        public void StartFadeIn(State newState = null)
+        {
+            imageBg.color = new Color(imageBg.color.r, imageBg.color.g, imageBg.color.b, 0);
+            imageBorder.color = new Color(imageBorder.color.r, imageBorder.color.g, imageBorder.color.b, 0);
+            text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
+
+            hasFadedIn = false;
+            this.enabled = true;
+
+            changeState = newState;
         }
 
         // Update is called once per frame
@@ -48,6 +60,10 @@ namespace ggj.Assets._Game.Scripts.Intro
                 hasFadedIn = true;
                 this.enabled = false;
                 choiceContainer.gameObject.SetActive(true);
+                if (changeState)
+                {
+                    choiceContainer.SetTalk(changeState);
+                }
                 choiceContainer.NextState(0);
             }
         }

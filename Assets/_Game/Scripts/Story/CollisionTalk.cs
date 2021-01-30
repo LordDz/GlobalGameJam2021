@@ -32,9 +32,10 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         private void TalkToPlayer()
         {
             hasStartedTalking = true;
-            dialogueUI.ShowUI();
-            choiceContainer.SetTalk(currentState);
+            choiceContainer.ClearText();
+            dialogueUI.ShowUI(currentState);
             this.gameObject.SetActive(false);
+
         }
     }
 }

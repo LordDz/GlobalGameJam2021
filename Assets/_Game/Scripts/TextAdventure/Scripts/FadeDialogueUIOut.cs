@@ -26,6 +26,11 @@ namespace ggj.Assets._Game.Scripts.Intro
             this.enabled = false;
         }
 
+        public void StartFadeOut()
+        {
+            hasFadedOut = false;
+        }
+
         // Update is called once per frame
         void Update()
         {

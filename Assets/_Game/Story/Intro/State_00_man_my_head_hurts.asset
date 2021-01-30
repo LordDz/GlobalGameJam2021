@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
   m_Name: State_00_man_my_head_hurts
   m_EditorClassIdentifier: 
-  storyText: 
+  desc:
+  - '<color=#ff0000ff>Man: My head... It hurts... Why does it hurt?</color>'
   nextTitles:
   - <color=#ff0000ff>My head... It hurts... Why does it hurt?</color>
   nextSpeaker: 0

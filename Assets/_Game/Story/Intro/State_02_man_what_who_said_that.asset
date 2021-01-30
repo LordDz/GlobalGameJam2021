@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
   m_Name: State_02_man_what_who_said_that
   m_EditorClassIdentifier: 
-  storyText: The wall tells you to not stare at it
+  desc:
+  - '<color=#ff0000ff>Man: What? Who... who said that?</color>'
   nextTitles:
   - <color=#ff0000ff>What? Who... who said that?</color>
   nextSpeaker: 0

@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
-    [TextArea(10,14)][SerializeField] string storyText;
+    [TextArea(4,10)][SerializeField] string[] desc;
     [TextArea(3, 2)][SerializeField] string[] nextTitles;
     [SerializeField] TextSpeaker nextSpeaker;
     [SerializeField] AudioClip[] nextClips;
@@ -14,10 +14,12 @@ public class State : ScriptableObject
     {
         return nextTitles;
     }
-    public string GetStateStory()
+
+    public string[] titleDescriptions()
     {
-        return storyText;
+        return desc;
     }
+
     public AudioClip GetVoiceClip(int index)
     {
         if (index >= 0 && index < nextClips.Length && nextClips[index] != null)

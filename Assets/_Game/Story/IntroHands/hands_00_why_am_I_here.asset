@@ -12,12 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
   m_Name: hands_00_why_am_I_here
   m_EditorClassIdentifier: 
-  storyText: 
+  desc:
+  - '<color=#ff0000ff>Man: Why am I here? I can''t remember coming here... wait.
+    Is this how my hands look?</color>
+
+
+    *The main looks at his hands. And then
+    they touch their own face and body. When they touch their trousers they feel
+    that there are some objects in the pockets*'
   nextTitles:
   - <color=#ff0000ff>Why am I here? I can't remember coming here... wait. Is this
     how my hands look?</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 13732fec4b18c494580a56f2eeefa357, type: 3}
+  - {fileID: 8300000, guid: 059f3582559567643905b247482195e6, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: 0d8adeeb10191b04ab8ec1ab7c4675b1, type: 2}
+  - {fileID: 11400000, guid: 1714e6ddd3134df45a89009e5867d08c, type: 2}
