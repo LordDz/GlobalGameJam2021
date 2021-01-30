@@ -60,6 +60,7 @@ Shader "Custom/Rain"
                 
                 fixed4 suppousedlyOverlay =  lerp(col,rain,lerpVal);
                 fixed4 ret = lerp(col,overlayTop,0.25)*(1-vignette.w*.75);
+                ret = col*(1-vignette.w*.25);
                 return ret;
             }
             ENDCG
