@@ -25,7 +25,7 @@ MonoBehaviour:
   - <color=#ff0000ff>Hello? Who is this?</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 2b9dfb192ceaefd42b2f537932c84fa4, type: 3}
   nextStates:
   - {fileID: 11400000, guid: d9cc59bf3cd729e42aa9c695b6b15d81, type: 2}
   nextScene: 

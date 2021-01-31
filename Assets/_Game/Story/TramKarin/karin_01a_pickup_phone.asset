@@ -29,7 +29,7 @@ MonoBehaviour:
   - Pickup the phone from the pocket.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 00b64b33d048af94084cf15082c36ad6, type: 3}
+  - {fileID: 8300000, guid: c139dd569758fc84fa200d344e916d62, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 9597e84f0ab2b744e8c531b049541f36, type: 2}
   nextScene: 

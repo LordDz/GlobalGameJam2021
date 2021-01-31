@@ -26,8 +26,8 @@ MonoBehaviour:
   - Answer phone
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: b082037f3c6c84043b29c66bb487c4d2, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: c139dd569758fc84fa200d344e916d62, type: 3}
+  - {fileID: 8300000, guid: 8ba53274b40602445afeeb54a24117b9, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 25c99df8e0759d84ab032a35ff7af0a6, type: 2}
   - {fileID: 11400000, guid: 67309628e860ed1448fdc9c57f8a43cf, type: 2}

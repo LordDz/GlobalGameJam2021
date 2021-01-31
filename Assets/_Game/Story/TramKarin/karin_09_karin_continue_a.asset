@@ -21,7 +21,7 @@ MonoBehaviour:
   - <color=#ff0000ff>...</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 0c106cc5610b49d4da9d988cb108e0c1, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 3e5a11eb45d1e23478010feeade735e5, type: 2}
   nextScene: 

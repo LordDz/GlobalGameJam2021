@@ -521,7 +521,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1d80554544471e14d8c39e1047021e05, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0916b135a92c64940bb97011113c1040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingState: {fileID: 0}
+  startingState: {fileID: 11400000, guid: 12ae550a4b1fcb64fadeb5d2d772a97c, type: 2}
   choiceContainer: {fileID: 359835636}
   dialogueUI: {fileID: 440620528}
 --- !u!1 &1780673263
@@ -775,7 +775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0916b135a92c64940bb97011113c1040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingState: {fileID: 0}
+  startingState: {fileID: 11400000, guid: 31fc0e8b5ab9d9e4ebf2d9b3815bc7a5, type: 2}
   choiceContainer: {fileID: 359835636}
   dialogueUI: {fileID: 440620528}
 --- !u!61 &1780673265
@@ -999,7 +999,7 @@ PrefabInstance:
     - target: {fileID: 4298715637042914572, guid: 593fb0636db8b9a42b101aa6726161c0, type: 3}
       propertyPath: startingState
       value: 
-      objectReference: {fileID: 11400000, guid: 157994166b829644e81904978b48cd30, type: 2}
+      objectReference: {fileID: 11400000, guid: 12ae550a4b1fcb64fadeb5d2d772a97c, type: 2}
     - target: {fileID: 4663976925886473573, guid: 593fb0636db8b9a42b101aa6726161c0, type: 3}
       propertyPath: m_SizeDelta.x
       value: -149.95

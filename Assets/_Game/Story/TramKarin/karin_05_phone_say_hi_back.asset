@@ -23,16 +23,7 @@ MonoBehaviour:
     you were wandering around the museum.</color>
 
     <color=#a11fed>You know that
-    I have given you the last warning about this.</color>
-
-    <color=#a11fed>I can''t
-    have my employees strolling on the roof.</color>
-
-    <color=#a11fed>Even if
-    you are permitted you have responsibility to...</color>
-
-    <color=#a11fed>Hello?
-    Glenn? Are you listening?</color>'
+    I have given you the last warning about this.</color>'
   - '<color=#ff0000ff>Man: I sound cooler when I speak English. Karin?</color>
 
 
@@ -45,22 +36,15 @@ MonoBehaviour:
     <color=#a11fed>You know that
     I have given you the last warning about this.</color>
 
-    <color=#a11fed>I can''t
-    have my employees strolling on the roof.</color>
-
-    <color=#a11fed>Even if
-    you are permitted you have responsibility to...</color>
-
-    <color=#a11fed>Hello?
-    Glenn? Are you listening?</color>'
+'
   nextTitles:
   - <color=#ff0000ff>I don't know..</color>
   - <color=#ff0000ff>I sound cooler when I speak English.</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: f2b55f6c51a387148a62ef2f0577bc17, type: 3}
+  - {fileID: 8300000, guid: f2b55f6c51a387148a62ef2f0577bc17, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: f3d5c4d4f1229614ebbfea0c734b7f48, type: 2}
-  - {fileID: 11400000, guid: f3d5c4d4f1229614ebbfea0c734b7f48, type: 2}
+  - {fileID: 11400000, guid: 9cae986f93bbf624abbd7bf9847bb1f6, type: 2}
+  - {fileID: 11400000, guid: 9cae986f93bbf624abbd7bf9847bb1f6, type: 2}
   nextScene: 

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: securitas_00_voices
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#d8de2c>Voice: I don''t like this man.</color>
+  - '<color=#ff00a2>Voice: I don''t like this man.</color>
 
-    <color=#ff00a2>Voice:
+    <color=#d8de2c>Voice:
     We should go before he sees you.</color>'
   nextTitles:
   - First line not shown.

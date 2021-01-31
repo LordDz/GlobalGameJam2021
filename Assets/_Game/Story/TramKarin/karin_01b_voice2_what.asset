@@ -13,12 +13,19 @@ MonoBehaviour:
   m_Name: karin_01b_voice2_what
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff00a2>Voice: No what if it is her. She can need your help.</color>'
+  - '<color=#a11fed>*Phone ringing*</color>
+
+
+    <color=#ff00a2>Voice: No what if
+    it is her. She can need your help.</color>
+
+
+    <color=#a11fed>*Phone ringing*</color>'
   nextTitles:
   - <color=#ff00a2>No what if it is her. She can need your help.</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 066e9bcda210a1d4996ce2ea572e8e30, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 74e6a77c84450f443a3808167a2f517e, type: 2}
   nextScene: 

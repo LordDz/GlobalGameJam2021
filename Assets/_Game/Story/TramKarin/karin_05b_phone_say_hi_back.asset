@@ -10,25 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: karin_08_took_my_job
+  m_Name: karin_05b_phone_say_hi_back
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man: You took my job. My Living.</color>
+  - '<color=#a11fed>Karin: I can''t have my employees strolling on the roof.</color>
 
+    <color=#a11fed>Even
+    if you are permitted you have responsibility to...</color>
 
-    <color=#a11fed>Karin:
-    Herregud. Glenn. Don''t be ridiculous.</color>
-
-    <color=#a11fed>We had to
-    after the restrictions..</color>
-
-
-'
+    <color=#a11fed>Hello?
+    Glenn? Are you listening?</color>'
   nextTitles:
-  - <color=#ff0000ff>You took my job.</color>
+  - <color=#ff0000ff>....</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 7a04a1baa43f7004b94029d575fd3039, type: 3}
+  - {fileID: 8300000, guid: bf138d433eca67a44a2807077a5f7df7, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: 747a4b1bf0f3fe8458579a298c62a1be, type: 2}
+  - {fileID: 11400000, guid: f3d5c4d4f1229614ebbfea0c734b7f48, type: 2}
   nextScene: 

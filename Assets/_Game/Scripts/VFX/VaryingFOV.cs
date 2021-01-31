@@ -21,7 +21,7 @@ namespace ggj
         {
         	float motion=(Mathf.Sin(Time.time*0.5f)+1.0f)*0.5f;        	
         	float fov=Mathf.Lerp(maxMin[0],maxMin[1],motion);
-        	Debug.Log(fov);
+        	//Debug.Log("fov: " + fov);
         	Camera.main.fieldOfView = fov;
         }
     }

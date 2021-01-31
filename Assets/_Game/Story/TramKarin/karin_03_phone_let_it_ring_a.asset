@@ -15,10 +15,10 @@ MonoBehaviour:
   desc:
   - <color=#a11fed>*Phone ringing*</color>
   nextTitles:
-  - Let is ring.
+  - Let it ring.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 23af9708a2f12504db2d58bb36cf7941, type: 3}
+  - {fileID: 8300000, guid: c139dd569758fc84fa200d344e916d62, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 5bbe55903c6a09c4e92d21d2c0d0b465, type: 2}
   nextScene: 

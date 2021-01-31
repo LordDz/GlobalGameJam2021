@@ -18,7 +18,7 @@ MonoBehaviour:
   - Let the phone ring.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: bcbfa9a27ea4f154b932837d13a2a909, type: 3}
+  - {fileID: 8300000, guid: c139dd569758fc84fa200d344e916d62, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 37c07f17b33d02748b63417a655d4259, type: 2}
   nextScene: 

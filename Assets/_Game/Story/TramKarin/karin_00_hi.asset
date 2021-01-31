@@ -18,7 +18,7 @@ MonoBehaviour:
   - First line not shown.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 3b470bde9c1a1ed4faee14e0e2f2bd4d, type: 3}
+  - {fileID: 8300000, guid: c139dd569758fc84fa200d344e916d62, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 433f168b8354db54c8f5718d71f49059, type: 2}
   nextScene: 

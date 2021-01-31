@@ -18,7 +18,7 @@ MonoBehaviour:
   - <color=#ff00a2>She was just worried.</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 39a772d104b7f294aa6e4fb7606b446d, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 4c5cdb316e680d3498f551678f31df83, type: 2}
   nextScene: 
