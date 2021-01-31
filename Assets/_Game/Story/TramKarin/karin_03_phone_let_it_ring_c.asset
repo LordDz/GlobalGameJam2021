@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: karin_00_hi
+  m_Name: karin_03_phone_let_it_ring_c
   m_EditorClassIdentifier: 
   desc:
-  - "The man comes close to someone who has had a few too many drinks tonight,\nseeing
-    the man nearby they wake up from their haze for a few seconds to ask:\n\n<color=#e80ec7>Rugged:
-    Harru n\xE5rron cigg?</color>"
+  - '<color=#a11fed>*Phone is still ringing.*</color>
+
+
+    The two passengers looks
+    with dismay at the man, who insists on listening to his ringtone on a public
+    transportation.'
   nextTitles:
-  - First line not shown.
+  - Let the phone ring.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: dde4aa9ebc6721a45a1609d36cd1460c, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: 0d45723d1f3850b40ba23f9b0205156c, type: 2}
+  - {fileID: 11400000, guid: e1cdbcf00b5a110468fad0146aef0f9c, type: 2}
   nextScene: 

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: karin_04_phone_karin_hello
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: Hello? Who is this?</color>
+
+
+    <color=#a11fed>Phone:
+    "It is me Karin. Where are you Glenn? </color>
+
+    <color=#a11fed>Why are you
+    speaking English Glenn?</color>'
+  nextTitles:
+  - <color=#ff0000ff>Hello? Who is this?</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: d9cc59bf3cd729e42aa9c695b6b15d81, type: 2}
+  nextScene: 

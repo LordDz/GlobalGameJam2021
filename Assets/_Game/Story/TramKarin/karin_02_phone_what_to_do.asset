@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: karin_02_phone_what_to_do
+  m_EditorClassIdentifier: 
+  desc:
+  - 'The man lets the phone ring, hopefully it will stop soon.
+
+
+    <color=#a11fed>*Phone
+    ringing*</color>
+
+'
+  - "<color=#a11fed>Phone: Glenn? \xC4r du d\xE4r? Glenn? Hall\xE5?</color>"
+  nextTitles:
+  - Let it ring
+  - Answer phone
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: b082037f3c6c84043b29c66bb487c4d2, type: 3}
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 25c99df8e0759d84ab032a35ff7af0a6, type: 2}
+  - {fileID: 11400000, guid: 67309628e860ed1448fdc9c57f8a43cf, type: 2}
+  nextScene: 

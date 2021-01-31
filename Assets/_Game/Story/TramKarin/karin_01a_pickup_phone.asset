@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: karin_01a_pickup_phone
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#d8de2c>Voice: Do not answer!</color>
+
+    <color=#d8de2c>They will get
+    you!</color>
+
+    <color=#d8de2c>And when they find you. You''ll wish you were
+    dead.</color>
+
+    <color=#d8de2c>Or never born.</color>
+
+    <color=#d8de2c>Remember
+    you only have one of nine lives left.</color>'
+  nextTitles:
+  - Pickup the phone from the pocket.
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: 00b64b33d048af94084cf15082c36ad6, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 9597e84f0ab2b744e8c531b049541f36, type: 2}
+  nextScene: 

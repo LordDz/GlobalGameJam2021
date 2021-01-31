@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: karin_05_phone_say_hi_back
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: I don''t know...Karin?</color>
+
+
+    <color=#a11fed>Karin:
+    Geez..</color>
+
+    <color=#a11fed>I just got an alarm from the night guard that
+    you were wandering around the museum.</color>
+
+    <color=#a11fed>You know that
+    I have given you the last warning about this.</color>
+
+    <color=#a11fed>I can''t
+    have my employees strolling on the roof.</color>
+
+    <color=#a11fed>Even if
+    you are permitted you have responsibility to...</color>
+
+    <color=#a11fed>Hello?
+    Glenn? Are you listening?</color>'
+  - '<color=#ff0000ff>Man: I sound cooler when I speak English. Karin?</color>
+
+
+    <color=#a11fed>Karin:
+    Geez..</color>
+
+    <color=#a11fed>I just got an alarm from the night guard that
+    you were wandering around the museum.</color>
+
+    <color=#a11fed>You know that
+    I have given you the last warning about this.</color>
+
+    <color=#a11fed>I can''t
+    have my employees strolling on the roof.</color>
+
+    <color=#a11fed>Even if
+    you are permitted you have responsibility to...</color>
+
+    <color=#a11fed>Hello?
+    Glenn? Are you listening?</color>'
+  nextTitles:
+  - <color=#ff0000ff>I don't know..</color>
+  - <color=#ff0000ff>I sound cooler when I speak English.</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 0}
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: f3d5c4d4f1229614ebbfea0c734b7f48, type: 2}
+  - {fileID: 11400000, guid: f3d5c4d4f1229614ebbfea0c734b7f48, type: 2}
+  nextScene: 

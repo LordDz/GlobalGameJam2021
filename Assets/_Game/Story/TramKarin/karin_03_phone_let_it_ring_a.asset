@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: karin_03_phone_let_it_ring_a
+  m_EditorClassIdentifier: 
+  desc:
+  - <color=#a11fed>*Phone ringing*</color>
+  nextTitles:
+  - Let is ring.
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: 23af9708a2f12504db2d58bb36cf7941, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 5bbe55903c6a09c4e92d21d2c0d0b465, type: 2}
+  nextScene: 

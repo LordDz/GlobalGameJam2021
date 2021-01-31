@@ -10,15 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: karin_02_walkaway
+  m_Name: karin_07_phone_decide
   m_EditorClassIdentifier: 
   desc:
   - 
+  - '<color=#ff0000ff>Man: You... you are a thief.</color>
+
+
+    <color=#a11fed>Karin:
+    What? What are you talking about?</color>'
   nextTitles:
-  - Walk away.
+  - Hang up the phone.
+  - Confront the caller.
   nextSpeaker: 0
   nextClips:
   - {fileID: 0}
+  - {fileID: 0}
   nextStates:
   - {fileID: 0}
-  nextScene: 
+  - {fileID: 11400000, guid: 88e29b250fdfe034480ca6f3184222da, type: 2}
+  nextScene: Iron
