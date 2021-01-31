@@ -15,6 +15,7 @@ MonoBehaviour:
   desc:
   - '<color=#ff0000ff>Man: How do I get to iron square?</color>
 
+
     <color=#cfb019>Orange:
     Tram three down the Avenue.</color>'
   nextTitles:
@@ -24,3 +25,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 54c102c03a918f8428cca7446242ee7a, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 0ea41d408885bfc4ea4278c116955fd9, type: 2}
+  nextScene: 

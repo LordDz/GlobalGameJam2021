@@ -11,7 +11,7 @@ namespace ggj.Assets._Game.Scripts.Intro
 
         float timeWait = 2f;
         float time = 0f;
-        float increase = 2.4f; //Default: 0.4
+        float increase = 0.4f; //Default: 0.4
         // Use this for initialization
         [SerializeField] GameObject objToShow;
 

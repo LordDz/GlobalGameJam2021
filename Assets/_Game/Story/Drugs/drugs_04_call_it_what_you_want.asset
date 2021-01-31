@@ -15,12 +15,14 @@ MonoBehaviour:
   desc:
   - '<color=#ff0000ff>Man: I don''t remember....</color>
 
+
     <color=#cfb019>Orange:
     That''s fair. Don''t let the high go to waste.</color>'
   - '<color=#ff0000ff>Man: I just medicate.</color>
 
-    <color=#cfb019>Orange: That''s
-    fair. Don''t let the high go to waste.</color>'
+
+    <color=#cfb019>Orange:
+    That''s fair. Don''t let the high go to waste.</color>'
   nextTitles:
   - <color=#ff0000ff>I don't remember....</color>
   - <color=#ff0000ff>I just medicate.</color>
@@ -31,3 +33,4 @@ MonoBehaviour:
   nextStates:
   - {fileID: 11400000, guid: d1a8267c99f706c4fa5ca46ff40eea23, type: 2}
   - {fileID: 11400000, guid: d1a8267c99f706c4fa5ca46ff40eea23, type: 2}
+  nextScene: 
