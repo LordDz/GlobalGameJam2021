@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/Intro.unity
     guid: 4e13d9c16beb3a64192b6747a5cc42e7
+  - enabled: 1
+    path: Assets/_Game/Scenes/Tram.unity
+    guid: 57b2956ad3e5f0549983dbcc942eb616
   m_configObjects: {}

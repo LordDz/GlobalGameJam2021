@@ -9,13 +9,20 @@ namespace ggj.Assets._Game.Scripts.Intro
         Image image;
         float increase = -0.5f;
 
+        [SerializeField] bool activateOnStart = false;
+
+
         // Use this for initialization
         void Start()
         {
             //text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
             //image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
             image = GetComponent<Image>();
-            this.enabled = false;
+
+            if (!activateOnStart)
+            {
+                this.enabled = false;
+            }
         }
 
         // Update is called once per frame

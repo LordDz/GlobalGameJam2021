@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: karin_01_question
+  m_EditorClassIdentifier: 
+  desc:
+  - "<color=#ff0000ff>Man: Sorry I don't have any cigarettes.</color>\n\n<color=#e80ec7>Rugged:
+    J\xE4vla Engelsman!</color>\n<color=#e80ec7>Brexit-man!</color>\n<color=#e80ec7>Brexit!</color>\n<color=#e80ec7>Hahaha!</color>"
+  - "<color=#ff0000ff>Man: You're drunk.</color>\n\n<color=#e80ec7>Rugged: J\xE4vla
+    Engelsman!</color>\n<color=#e80ec7>Brexit-man!</color>\n<color=#e80ec7>Brexit!</color>\n<color=#e80ec7>Hahaha!</color>\n"
+  nextTitles:
+  - <color=#ff0000ff>Sorry I don't have any cigarettes.</color>
+  - <color=#ff0000ff>You're drunk.</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 0}
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: ac26c4d3b80a7f9438a28a0cc3c3b2e8, type: 2}
+  - {fileID: 11400000, guid: ac26c4d3b80a7f9438a28a0cc3c3b2e8, type: 2}
+  nextScene: 

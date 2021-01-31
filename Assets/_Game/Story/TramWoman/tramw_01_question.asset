@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: tramw_01_question
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: Is this tram going to Iron Square?</color>
+
+
+    <color=#15d4e6>Styled:
+    Can you back off? You are too close.</color>
+
+    <color=#15d4e6>I don''t wanna
+    get sick.</color>'
+  - '<color=#ff0000ff>Man: Why do you have a tail?</color>
+
+
+    <color=#15d4e6>Styled:
+    Can you back off? </color>
+
+    <color=#15d4e6>You are too close.</color>
+
+    <color=#15d4e6>I
+    don''t wanna get sick.</color>'
+  nextTitles:
+  - <color=#ff0000ff>Is this tram going to Iron Square?</color>
+  - <color=#ff0000ff>Why do you have a tail?</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: 97c8036507331b84fbe7d56b2391d403, type: 3}
+  - {fileID: 8300000, guid: 97c8036507331b84fbe7d56b2391d403, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 97d3456c8121ff741b3df6e8089f819e, type: 2}
+  - {fileID: 11400000, guid: 97d3456c8121ff741b3df6e8089f819e, type: 2}
+  nextScene: 

@@ -10,14 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: drugs_06_continue_walking
+  m_Name: tramw_00_hi
   m_EditorClassIdentifier: 
   desc:
-  - 
-  - 
+  - 'The man looks at the .. woman?
+
+    Is that the word for it?
+
+    He tries to
+    remember.
+
+    She looks very stylized.'
   nextTitles:
-  - Take the tram to Iron Square.
+  - First line not shown.
   nextSpeaker: 0
-  nextClips: []
-  nextStates: []
-  nextScene: Tram
+  nextClips:
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 7779f3c05c50d174f99a80965fffe1a4, type: 2}
+  nextScene: 
