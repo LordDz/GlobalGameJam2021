@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: drugs_01_questions
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: Why are you wearing masks?</color>
+
+
+    <color=#3bba27>Green:
+    Jeez man, what''s the deal? We only take bitcoins or cash here.</color>'
+  - '<color=#ff0000ff>Man: Who am I?</color>
+
+
+    <color=#3bba27>Green: Jeez man,
+    what''s the deal? We only take bitcoins or cash here.</color>'
+  - '<color=#ff0000ff>Man: Where can I find Kelly''s Bar and Restaurant?</color>
+
+
+    <color=#3bba27>Green:
+    Jeez man, what''s the deal? We only take bitcoins or cash here.</color>'
+  nextTitles:
+  - <color=#ff0000ff>Why are you wearing masks?</color>
+  - <color=#ff0000ff>Do you know who I am?</color>
+  - <color=#ff0000ff>Where can I find Kelly's Bar and Restaurant?</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: 469713adcad65c1448e46cfc018b3233, type: 3}
+  - {fileID: 8300000, guid: da8aec2c6f706064d83daae1a4a35cf8, type: 3}
+  - {fileID: 8300000, guid: 9c5aca478af22834d85bb8ffa6e97b8d, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 969fa942dc1b1114c9ff20accc41372e, type: 2}
+  - {fileID: 11400000, guid: 969fa942dc1b1114c9ff20accc41372e, type: 2}
+  - {fileID: 11400000, guid: 969fa942dc1b1114c9ff20accc41372e, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: drugs_03_question_andra_long
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: You mean Iron Square and Second Long?</color>
+
+    <color=#cfb019>Orange:
+    You can call it that if you want, man this guy is wicked!</color>
+
+    <color=#cfb019>I
+    see now why he''s turned us down, he''s already stoned.</color>
+
+    <color=#cfb019>I
+    should get what he is getting. </color>
+
+    <color=#cfb019>Who''s your dealer?</color>'
+  nextTitles:
+  - <color=#ff0000ff>You mean Iron Square and Second Long?</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: e0bab6e0c5182c44d8a5e9d264d478f6, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: a5ef0a386d22c1b43bc56de4b9765ee3, type: 2}

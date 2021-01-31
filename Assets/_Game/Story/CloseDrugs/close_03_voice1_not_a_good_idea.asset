@@ -10,18 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: close_00_they_dont_like_right
+  m_Name: close_03_voice1_not_a_good_idea
   m_EditorClassIdentifier: 
   desc:
-  - 'The man looks over at the nearby two figures.
-
-
-    <color=#ff0000ff>Man: They
-    don''t look right.</color>'
+  - '<color=#d8de2c>Voice: Not a good idea. Just run. Run away.</color>'
   nextTitles:
-  - <color=#ff0000ff>They don't look right.</color>
+  - <color=#d8de2c>Not a good idea. Just run. Run away.</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: ae9f2e4a56338594aa0daf0afa003063, type: 3}
+  - {fileID: 8300000, guid: 5bbd89c4888871b4b9967d267a44a210, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: 24dc238e8effa6a40b548e1dd226f34e, type: 2}
+  - {fileID: 11400000, guid: 998f1f32c59b40c4cabcfe6bbe977456, type: 2}

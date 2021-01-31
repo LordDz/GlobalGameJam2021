@@ -13,25 +13,14 @@ MonoBehaviour:
   m_Name: close_01_voice1_they_dont_look_right
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man: It''s locked. I don''t remember the passcode.</color>
+  - '<color=#d8de2c>Voice: THEY DON''T LOOK RIGHT?!
 
-
-    The
-    man looks down at the phone and tries to figure out the combination.'
-  - "<color=#ff0000ff>Man: \"It's card for \"Kelly's Bar & Restaurant\" but someone
-    has scribbled something on it. It says: \"k\xE4nn ingen sorg\".</color>"
-  - '<color=#ff0000ff>Man: "It''s a round plastic lid of some sort. It has some blue
-    color on it..</color>'
+    Just run, run the other
+    way or be killed!</color>'
   nextTitles:
-  - <color=#d8de2c>Pick up the phone</color>
-  - <color=#d8de2c>Read the note</color>
-  - <color=#d8de2c>Look at the round plastic object</color>
+  - <color=#d8de2c>They don't look right!</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 265ad39d90ff2d24ca21633db977a147, type: 3}
-  - {fileID: 8300000, guid: 91c9a16b109692247a58600315fd20a6, type: 3}
-  - {fileID: 8300000, guid: 6057eaf8f14d36c4488b5e15af99ccdf, type: 3}
+  - {fileID: 8300000, guid: 46916d1d4580b1f4b8c7f2f766b4a473, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: a41770d41b3e55241bee0df2ab76287a, type: 2}
-  - {fileID: 11400000, guid: ae6f99b0db0c4c1479dc11a21b1356c0, type: 2}
-  - {fileID: 11400000, guid: 16bab78cf75b34f4888741c8e1a2bb44, type: 2}
+  - {fileID: 11400000, guid: 354a8987c0d29884a9e55bc7fa50c40e, type: 2}

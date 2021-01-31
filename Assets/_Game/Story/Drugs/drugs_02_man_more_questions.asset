@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: drugs_02_man_more_questions
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: You look like animals.</color>
+
+    <color=#3bba27>Green:
+    W H A T  D I D  Y O U  S A Y !?</color>'
+  - "<color=#ff0000ff>Man: I need to go to Kelly's Bar and Restaurant.</color>\n<color=#cfb019>Orange:
+    He is just a lost tourist. Let's not waste time.</color>\n<color=#3bba27>Green:
+    He is a fucking moron. That's what he is.</color>\n<color=#cfb019>Orange: You
+    have to go to J\xE4rntorget and then to Andra L\xE5ng..</color>"
+  nextTitles:
+  - <color=#ff0000ff>You look like animals.</color>
+  - <color=#ff0000ff>I just need to go to Kelly's Bar and Restaurant.</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: 212bb9e55565a6f4c82134758f93e669, type: 3}
+  - {fileID: 8300000, guid: d52b40e0f2af39d45b1a7773b38221c7, type: 3}
+  nextStates:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 3a0d68062fc2f3e4caa2825185da20ce, type: 2}

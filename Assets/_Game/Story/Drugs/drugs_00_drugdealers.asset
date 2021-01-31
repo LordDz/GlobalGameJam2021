@@ -10,18 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: close_00_they_dont_like_right
+  m_Name: drugs_00_drugdealers
   m_EditorClassIdentifier: 
   desc:
-  - 'The man looks over at the nearby two figures.
-
-
-    <color=#ff0000ff>Man: They
-    don''t look right.</color>'
+  - '<color=#3bba27>Green: Want to buy something?</color>'
   nextTitles:
-  - <color=#ff0000ff>They don't look right.</color>
+  - First line not shown.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: ae9f2e4a56338594aa0daf0afa003063, type: 3}
+  - {fileID: 8300000, guid: 648363d407ecff1468ec2ae13329de41, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: 24dc238e8effa6a40b548e1dd226f34e, type: 2}
+  - {fileID: 11400000, guid: ff68405503199224fb8b7e018e4e4ec7, type: 2}

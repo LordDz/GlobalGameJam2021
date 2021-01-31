@@ -8,16 +8,14 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         State currentState;
         [SerializeField] State startingState;
 
-        ChoiceContainer choiceContainer;
-        DialogueUI dialogueUI;
+        [SerializeField] ChoiceContainer choiceContainer;
+        [SerializeField] DialogueUI dialogueUI;
 
         bool hasStartedTalking = false;
 
         // Use this for initialization
         void Start()
         {
-            choiceContainer = FindObjectOfType<ChoiceContainer>();
-            dialogueUI = FindObjectOfType<DialogueUI>();
             currentState = startingState;
         }
 

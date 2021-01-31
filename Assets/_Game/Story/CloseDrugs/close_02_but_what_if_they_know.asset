@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: close_00_they_dont_like_right
+  m_Name: close_02_but_what_if_they_know
   m_EditorClassIdentifier: 
   desc:
-  - 'The man looks over at the nearby two figures.
-
-
-    <color=#ff0000ff>Man: They
-    don''t look right.</color>'
+  - '<color=#ff0000ff>Man: What if they know something about the restaurant on the
+    card? I should ask them.</color>'
   nextTitles:
-  - <color=#ff0000ff>They don't look right.</color>
+  - <color=#ff0000ff>What if they know something about the restaurant on the card?
+    I should ask them.</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: ae9f2e4a56338594aa0daf0afa003063, type: 3}
+  - {fileID: 8300000, guid: 52879cfbd00030c4e8e642b1f172e7c8, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: 24dc238e8effa6a40b548e1dd226f34e, type: 2}
+  - {fileID: 11400000, guid: fd8b6a2cf59512c49bf5c961c1f7373c, type: 2}
