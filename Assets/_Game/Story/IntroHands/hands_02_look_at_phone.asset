@@ -16,7 +16,7 @@ MonoBehaviour:
   - Wrong code.
   - Wrong code.
   - Wrong code.
-  - '<color=#ff0000ff>Man: "Its disabled. It says try again in 1 minute.</color>
+  - '<color=#ff0000ff>Man: Its disabled. Let''s try again in one minute.</color>
 
 
     The
@@ -38,3 +38,4 @@ MonoBehaviour:
   - {fileID: 11400000}
   - {fileID: 11400000}
   - {fileID: 11400000, guid: 84536dde1538d154e922b23f8d980d58, type: 2}
+  nextScene: 

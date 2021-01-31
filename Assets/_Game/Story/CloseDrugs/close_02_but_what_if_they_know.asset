@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc:
   - '<color=#ff0000ff>Man: What if they know something about the restaurant on the
-    card? I should ask them.</color>'
+    card? No, no, I should ask them.</color>'
   nextTitles:
   - <color=#ff0000ff>What if they know something about the restaurant on the card?
     I should ask them.</color>
@@ -23,3 +23,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 52879cfbd00030c4e8e642b1f172e7c8, type: 3}
   nextStates:
   - {fileID: 11400000, guid: fd8b6a2cf59512c49bf5c961c1f7373c, type: 2}
+  nextScene: 

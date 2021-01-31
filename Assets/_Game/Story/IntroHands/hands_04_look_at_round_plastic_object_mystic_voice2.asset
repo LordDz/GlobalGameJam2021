@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: hands_04_look_at_round_plastic_object_mystic_voice2
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff00a2>Voice: Perhaps it''s a spray cap?.</color>'
+  - '<color=#ff00a2>Voice: Perhaps it''s a spray cap?</color>'
   nextTitles:
   - <color=#ff00a2>Perhaps it's a spray cap?</color>
   nextSpeaker: 0
@@ -21,3 +21,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1084be8abca0e0c42b130bafd42ee270, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 823500e3099afea4ab914c1357717c99, type: 2}
+  nextScene: 

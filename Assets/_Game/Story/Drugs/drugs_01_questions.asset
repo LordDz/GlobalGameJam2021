@@ -17,17 +17,17 @@ MonoBehaviour:
 
 
     <color=#3bba27>Green:
-    Jeez man, what''s the deal? We only take bitcoins or cash here.</color>'
+    Jeez man, what''s the deal? We only take bitcoins and cash here.</color>'
   - '<color=#ff0000ff>Man: Do you know who I am?</color>
 
 
     <color=#3bba27>Green:
-    Jeez man, what''s the deal? We only take bitcoins or cash here.</color>'
+    Jeez man, what''s the deal? We only take bitcoins and cash here.</color>'
   - '<color=#ff0000ff>Man: Where can I find Kelly''s Bar and Restaurant?</color>
 
 
     <color=#3bba27>Green:
-    Jeez man, what''s the deal? We only take bitcoins or cash here.</color>'
+    Jeez man, what''s the deal? We only take bitcoins and cash here.</color>'
   nextTitles:
   - <color=#ff0000ff>Why are you wearing masks?</color>
   - <color=#ff0000ff>Do you know who I am?</color>
@@ -41,3 +41,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 969fa942dc1b1114c9ff20accc41372e, type: 2}
   - {fileID: 11400000, guid: 969fa942dc1b1114c9ff20accc41372e, type: 2}
   - {fileID: 11400000, guid: 969fa942dc1b1114c9ff20accc41372e, type: 2}
+  nextScene: 

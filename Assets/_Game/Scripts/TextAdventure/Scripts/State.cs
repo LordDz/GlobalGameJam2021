@@ -1,4 +1,5 @@
-﻿using ggj.Assets._Game.Scripts.Stats;
+﻿using ggj.Assets._Game.Scripts.Intro;
+using ggj.Assets._Game.Scripts.Stats;
 using UnityEngine;
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
@@ -8,6 +9,7 @@ public class State : ScriptableObject
     [SerializeField] TextSpeaker nextSpeaker;
     [SerializeField] AudioClip[] nextClips;
     [SerializeField] State[] nextStates;
+    [SerializeField] string nextScene;
 
 
     public string[] GetNextTitles()
@@ -52,6 +54,11 @@ public class State : ScriptableObject
                 return "#0aff3b";
         }
         return Color.red.ToString();
+    }
+
+    public string GetNextScene()
+    {
+        return nextScene;
     }
 
 }

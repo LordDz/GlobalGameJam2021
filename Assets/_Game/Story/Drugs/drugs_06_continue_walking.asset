@@ -21,3 +21,4 @@ MonoBehaviour:
   nextSpeaker: 0
   nextClips: []
   nextStates: []
+  nextScene: tram

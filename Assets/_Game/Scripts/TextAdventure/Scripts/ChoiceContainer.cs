@@ -14,6 +14,8 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         [SerializeField] AudioSource audioSpeaker;
         [SerializeField] FadeDialogueUIOut fadeDialogueUIOut;
 
+        [SerializeField] FadeImageOutAndChangeLevel fadeImageOutAndChangeLevel;
+
         bool hasInit = false;
 
 
@@ -67,6 +69,18 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             {
                 fadeDialogueUIOut.enabled = true;
                 HideBtns();
+
+                //We assume that the next scene dialogue choice will always be the first
+                if (nr != 0) return;
+                var fadeoutScene = state.GetNextScene();
+
+                if (fadeoutScene != null && fadeoutScene.Length > 0)
+                {
+                    Debug.Log("I want to go to next scene: " + fadeoutScene);
+                 
+                    fadeImageOutAndChangeLevel.gameObject.SetActive(true);
+                    fadeImageOutAndChangeLevel.StartSceneChange(fadeoutScene);
+                }
             }
         }
 

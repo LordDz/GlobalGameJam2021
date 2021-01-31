@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: hands_01_look_at_objects
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man: It''s locked. I don''t remember the passcode.</color>
+  - '<color=#ff0000ff>Man: Damnit. It''s locked. I don''t remember the passcode.</color>
 
 
     The
     man looks down at the phone and tries to figure out the combination.'
-  - "<color=#ff0000ff>Man: \"It's card for \"Kelly's Bar & Restaurant\" but soomeone
+  - "<color=#ff0000ff>Man: It's card for \"Kelly's Bar & Restaurant\" but someone
     has scribbled something on it. It says: \"k\xE4nn ingen sorg\".</color>"
-  - '<color=#ff0000ff>Man: "It''s a round plastic lid of some sort. It has some blue
+  - '<color=#ff0000ff>Man: It''s a round plastic lid of some sort. It has some blue
     color on it..</color>'
   - <color=#ff0000ff></color>
   nextTitles:
@@ -38,3 +38,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a41770d41b3e55241bee0df2ab76287a, type: 2}
   - {fileID: 11400000, guid: ae6f99b0db0c4c1479dc11a21b1356c0, type: 2}
   - {fileID: 11400000, guid: 16bab78cf75b34f4888741c8e1a2bb44, type: 2}
+  nextScene: 

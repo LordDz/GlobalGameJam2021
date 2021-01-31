@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: State_03_no_response
   m_EditorClassIdentifier: 
   desc:
-  - <color=#ff0000ff>...There is no response....</color>
+  - ...There is no response...
   nextTitles:
-  - <color=#ff0000ff>....</color>
+  - ....
   nextSpeaker: 0
   nextClips: []
   nextStates: []
+  nextScene: 

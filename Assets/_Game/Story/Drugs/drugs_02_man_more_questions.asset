@@ -16,7 +16,7 @@ MonoBehaviour:
   - '<color=#ff0000ff>Man: You look like animals.</color>
 
     <color=#3bba27>Green:
-    W H A T  D I D  Y O U  S A Y !?</color>'
+    WHAT DID YOU SAY!?</color>'
   - "<color=#ff0000ff>Man: I need to go to Kelly's Bar and Restaurant.</color>\n<color=#cfb019>Orange:
     He is just a lost tourist. Let's not waste time.</color>\n<color=#3bba27>Green:
     He is a fucking moron. That's what he is.</color>\n<color=#cfb019>Orange: You
@@ -31,3 +31,4 @@ MonoBehaviour:
   nextStates:
   - {fileID: 11400000}
   - {fileID: 11400000, guid: 3a0d68062fc2f3e4caa2825185da20ce, type: 2}
+  nextScene: 
