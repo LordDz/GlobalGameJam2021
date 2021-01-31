@@ -17,8 +17,7 @@ MonoBehaviour:
     longer.</color>
 
 
-    <color=#ff00a2>Linda: How? I don''t think I''ll ever feel
-    happy again.</color>
+    <color=#ff00a2>Linda: I don''t know...</color>
 
 
 '
@@ -31,7 +30,7 @@ MonoBehaviour:
 
 '
   nextTitles:
-  - <color=#ff0000ff>"No rain no flowers, Linda. We have to endulge just a bit longer.</color>
+  - <color=#ff0000ff>No rain no flowers, Linda. We have to endulge just a bit longer.</color>
   - <color=#ff0000ff>Life is worth living even when you are not happy.</color>
   nextSpeaker: 0
   nextClips:

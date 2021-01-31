@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: call_04_no_wait
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man:No! Linda wait!</color>
+  - '<color=#ff0000ff>Man: No! Linda wait!</color>
 
 
     <color=#ff00a2>Linda: ....</color>

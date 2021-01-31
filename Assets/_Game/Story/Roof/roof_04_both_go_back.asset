@@ -19,8 +19,6 @@ MonoBehaviour:
   nextTitles:
   - Both climb down from the roof and head back to town.
   nextSpeaker: 0
-  nextClips:
-  - {fileID: 0}
-  nextStates:
-  - {fileID: 0}
-  nextScene: Call
+  nextClips: []
+  nextStates: []
+  nextScene: OutroCall

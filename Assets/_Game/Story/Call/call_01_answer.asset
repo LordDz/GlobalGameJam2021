@@ -26,5 +26,5 @@ MonoBehaviour:
   nextClips:
   - {fileID: 0}
   nextStates:
-  - {fileID: 11400000, guid: 4d6fd309b6fc7cd4b8a6c052c7b37e4c, type: 2}
+  - {fileID: 11400000, guid: 41f67cfcab392d74099745c2edb12d65, type: 2}
   nextScene: 

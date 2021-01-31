@@ -22,6 +22,10 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
 
         public void SetText(string textColor, string text)
         {
+            if (buttonText == null)
+            {
+                buttonText = GetComponentInChildren<Text>();
+            }
             buttonText.text = text;
         }
 

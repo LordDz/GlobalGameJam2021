@@ -6,7 +6,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
 {
     public class ChoiceContainer : MonoBehaviour
     {
-        [SerializeField] ChoiceButton[] listBtns;
+        public ChoiceButton[] listBtns;
         [SerializeField] Text textBox;
         [SerializeField] State startingState;
 

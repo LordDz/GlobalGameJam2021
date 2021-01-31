@@ -11,6 +11,7 @@ namespace ggj.Assets._Game.Scripts.Intro
         [SerializeField] Image imageBorder;
         [SerializeField] Text text;
         [SerializeField] FadeImageIn fadeInEffect;
+        [SerializeField] Text creditsText;
 
 
         DialogueUI dialogueUI;
@@ -46,7 +47,15 @@ namespace ggj.Assets._Game.Scripts.Intro
             imageBg.color = new Color(imageBg.color.r, imageBg.color.g, imageBg.color.b, imageBg.color.a + increase * Time.deltaTime);
             imageBorder.color = new Color(imageBorder.color.r, imageBorder.color.g, imageBorder.color.b, imageBorder.color.a + increase * Time.deltaTime);
 
-            fadeInEffect.enabled = true;
+            if (fadeInEffect != null)
+            {
+                fadeInEffect.enabled = true;
+            }
+
+            if (creditsText != null)
+            {
+                creditsText.gameObject.SetActive(true);
+            }
 
             if (text.color.a <= 0)
             {

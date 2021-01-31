@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/Flashback.unity
     guid: 6d3cf1caca99f31b6a33fd5979404513
+  - enabled: 1
+    path: Assets/_Game/Scenes/OutroCall.unity
+    guid: aa170b6822788cb4b8a2f577724fbfb4
   m_configObjects: {}
