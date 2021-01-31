@@ -15,7 +15,7 @@ MonoBehaviour:
   desc:
   - 
   nextTitles:
-  - Walk away.
+  - Continue walking to the bar.
   nextSpeaker: 0
   nextClips:
   - {fileID: 0}
