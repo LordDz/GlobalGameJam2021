@@ -23,7 +23,7 @@ MonoBehaviour:
     to the museum with a bag of spray cans to spread the word.</color>
 
     <color=#d1be80>Did
-    you get to the roof?.</color>'
+    you get to the roof?</color>'
   - '<color=#ff0000ff>Man: Of course I know who Linda is.</color>
 
 
@@ -34,7 +34,7 @@ MonoBehaviour:
     to the museum with a bag of spray cans to spread the word.</color>
 
     <color=#d1be80>Did
-    you get to the roof?.</color>'
+    you get to the roof?</color>'
   nextTitles:
   - <color=#ff0000ff>I know her but I can't remember her.</color>
   - <color=#ff0000ff>Of course I know who Linda is.</color>
@@ -43,6 +43,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   nextStates:
-  - {fileID: 11400000, guid: f482a8c5dbf7f074695619d4908a7089, type: 2}
-  - {fileID: 11400000, guid: f482a8c5dbf7f074695619d4908a7089, type: 2}
+  - {fileID: 11400000, guid: 2ec75e1b25904a6458e0f6536bb19265, type: 2}
+  - {fileID: 11400000, guid: 2ec75e1b25904a6458e0f6536bb19265, type: 2}
   nextScene: 

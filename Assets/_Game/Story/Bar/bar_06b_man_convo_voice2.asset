@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: graffiti_03_voice2_help_her
+  m_Name: bar_06b_man_convo_voice2
   m_EditorClassIdentifier: 
   desc:
-  - <color=#ff00a2>Voice:You have to help her. She is in danger.</color>
+  - '<color=#d8de2c>Voice: You totally screwed it.</color>
+
+    <color=#d8de2c>Now
+    he knows you''re insane.</color>'
   nextTitles:
-  - <color=#ff00a2>You have to help her. She is in danger.</color>
+  - <color=#d8de2c>You totally screwed it. Now he knows you're insane.</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 918165f72f6260549bdf2651b9913718, type: 3}
+  - {fileID: 0}
   nextStates:
-  - {fileID: 11400000, guid: 0d5a0b555cd2fd348b8e983259dce500, type: 2}
+  - {fileID: 11400000, guid: 97a1300a6f9d88c4da5e3fb889f4aadb, type: 2}
   nextScene: 

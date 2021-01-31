@@ -10,39 +10,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: bar_03_I_know_her
+  m_Name: bar_04_roof_or_spray_cans
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man: I know her but I can''t remember her.</color>
+  - '<color=#ff0000ff>Man: The roof?</color>
 
 
-    <color=#d1be80>Stranger:
-    Where is she?</color>
+    <color=#d1be80>Stranger: Yea.</color>
 
-    <color=#d1be80>Last time I saw you, you were heading
-    to the museum with a bag of spray cans to spread the word.</color>
+    <color=#d1be80>You
+    and Linda wanted to give me the panoramic view over the city</color>
 
-    <color=#d1be80>Did
-    you get to the roof?.</color>'
-  - '<color=#ff0000ff>Man: Of course I know who Linda is.</color>
+    <color=#d1be80>I
+    would have come if it wasn''t for my fright of heights.</color>
+
+'
+  - '<color=#ff0000ff>Man: Spray cans?</color>
 
 
-    <color=#d1be80>Stranger:
-    Where is she?</color>
+    <color=#d1be80>Stranger: Well
+    I think it''s art.</color>
 
-    <color=#d1be80>Last time I saw you, you were heading
-    to the museum with a bag of spray cans to spread the word.</color>
+    <color=#d1be80>Even if you only write a word.</color>
 
-    <color=#d1be80>Did
-    you get to the roof?.</color>'
+    <color=#d1be80>
+    mean. It''s the collection of it that makes it special.</color>
+
+'
   nextTitles:
-  - <color=#ff0000ff>I know her but I can't remember her.</color>
-  - <color=#ff0000ff>Of course I know who Linda is.</color>
+  - <color=#ff0000ff>The roof?</color>
+  - <color=#ff0000ff>Spray cans?</color>
   nextSpeaker: 0
   nextClips:
   - {fileID: 0}
   - {fileID: 0}
   nextStates:
-  - {fileID: 11400000, guid: f482a8c5dbf7f074695619d4908a7089, type: 2}
-  - {fileID: 11400000, guid: f482a8c5dbf7f074695619d4908a7089, type: 2}
+  - {fileID: 11400000, guid: 5efc1647d2674a3429b0d2364089da1d, type: 2}
+  - {fileID: 11400000, guid: 5efc1647d2674a3429b0d2364089da1d, type: 2}
   nextScene: 

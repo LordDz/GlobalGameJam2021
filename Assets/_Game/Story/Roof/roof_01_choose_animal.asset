@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: roof_01_choose_animal
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: I don''t know maybe a ferret?</color>
+
+    <color=#ff0000ff>Small
+    and not easily caught?</color>
+
+
+    <color=#ff00a2>Linda: Hahaha. No way. You
+    are the biggest person I know.</color>
+
+    <color=#ff00a2>When I am with you
+    I feel safe.</color>
+
+    <color=#ff00a2>You know protected and embraced sorta.</color>
+
+
+'
+  - '<color=#ff0000ff>Man: I don''t know maybe a rat?</color>
+
+    <color=#ff0000ff>Small
+    and not easily caught?</color>
+
+
+    <color=#ff00a2>Linda: Hahaha. No way. You
+    are the biggest person I know.</color>
+
+    <color=#ff00a2>When I am with you
+    I feel safe.</color>
+
+    <color=#ff00a2>You know protected and embraced sorta.</color>'
+  - '<color=#ff0000ff>Man: I don''t know maybe a cockroach?</color>
+
+    <color=#ff0000ff>Small
+    and not easily caught?</color>
+
+
+    <color=#ff00a2>Linda: Hahaha. No way. You
+    are the biggest person I know.</color>
+
+    <color=#ff00a2>When I am with you
+    I feel safe.</color>
+
+    <color=#ff00a2>You know protected and embraced sorta.</color>
+
+'
+  nextTitles:
+  - <color=#ff0000ff>A ferret.</color>
+  - <color=#ff0000ff>A rat.</color>
+  - <color=#ff0000ff>A cockroach.</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 4e14a9ce887fabd44b2eaa62da2bda69, type: 2}
+  - {fileID: 11400000, guid: 4e14a9ce887fabd44b2eaa62da2bda69, type: 2}
+  - {fileID: 11400000, guid: 4e14a9ce887fabd44b2eaa62da2bda69, type: 2}
+  nextScene: 

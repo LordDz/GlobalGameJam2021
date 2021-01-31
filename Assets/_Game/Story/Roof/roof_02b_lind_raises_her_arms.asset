@@ -10,15 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: graffiti_03_voice2_help_her
+  m_Name: roof_02b_lind_raises_her_arms
   m_EditorClassIdentifier: 
   desc:
-  - <color=#ff00a2>Voice:You have to help her. She is in danger.</color>
+  - 'Linda raises her arms like she is going to spread her wings.
+
+
+    She is very
+    close to the edge.
+
+'
   nextTitles:
-  - <color=#ff00a2>You have to help her. She is in danger.</color>
+  - Linda raises her arms like she is going to spread her wings.
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 918165f72f6260549bdf2651b9913718, type: 3}
+  - {fileID: 0}
   nextStates:
-  - {fileID: 11400000, guid: 0d5a0b555cd2fd348b8e983259dce500, type: 2}
+  - {fileID: 11400000, guid: b6e4655864c1ea34ba24b2cf8826f0ea, type: 2}
   nextScene: 
