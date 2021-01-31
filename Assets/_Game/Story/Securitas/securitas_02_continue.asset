@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: securitas_02_continue
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: Do you know me?</color>
+
+
+    <color=#91bdff>Blue: I''ve
+    seen your ugly face more than I would want. Now get lost or I will arrest you.</color>'
+  - '<color=#ff0000ff>Man: How come I''ve been warned? What have I done?</color>
+
+
+    <color=#91bdff>Blue:
+    Playing dumb, eh? Your boss have told me what kind of disturbed freak you are.
+    Now get lost or I''ll arrest you.</color>'
+  nextTitles:
+  - <color=#ff0000ff>Do you know me?</color>
+  - <color=#ff0000ff>How come I've been warned? What have I done?</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: 35ea89a2f7f760d408b701c98c5f80f5, type: 3}
+  - {fileID: 8300000, guid: c422d00b5be4e8ecf96eb51d90fe5e9c, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: c73f7c4cf6d1c84409ca47c0dbab4d98, type: 2}
+  - {fileID: 11400000, guid: c73f7c4cf6d1c84409ca47c0dbab4d98, type: 2}
+  nextScene: 

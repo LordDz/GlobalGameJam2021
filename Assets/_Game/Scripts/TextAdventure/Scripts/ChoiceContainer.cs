@@ -63,7 +63,15 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
             if (nextStates != null && nextStates.Length > 0 && nextStates.Length > nr)
             {
                 state = nextStates[nr];
-                FixBtns();
+                if (state != null)
+                {
+                    FixBtns();
+                }
+                else
+                {
+                    fadeDialogueUIOut.enabled = true;
+                    HideBtns();
+                }
             }
             else
             {
@@ -94,6 +102,7 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
         private void PlayVoiceClip(int nr)
         {
             audioSpeaker.Stop();
+            if (state == null) return;
             AudioClip clip = state.GetVoiceClip(nr);
             if (clip != null)
             {

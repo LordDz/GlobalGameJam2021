@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: securitas_03_decide
+  m_EditorClassIdentifier: 
+  desc:
+  - 'The man stands and looks at Blue.
+
+    Blue looks with annoyance at the man.
+
+
+    <color=#91bdff>Blue:
+    It would be my pleasure to lock you up.</color>'
+  - The man walks away.
+  nextTitles:
+  - Stay.
+  - Walk away.
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 8300000, guid: b3ba3201c64b46ca1a6d302af48f8744, type: 3}
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: b395bb337fdcb544a9ba37ce9998bd08, type: 2}
+  - {fileID: 0}
+  nextScene: 

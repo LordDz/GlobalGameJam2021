@@ -10,14 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: drugs_06_continue_walking
+  m_Name: securitas_00_voices
   m_EditorClassIdentifier: 
   desc:
-  - 
-  - 
+  - '<color=#d8de2c>Voice: I don''t like this man.</color>
+
+    <color=#ff00a2>Voice:
+    We should go before he sees you.</color>'
   nextTitles:
-  - Take the tram to Iron Square.
+  - First line not shown.
   nextSpeaker: 0
-  nextClips: []
-  nextStates: []
-  nextScene: tram
+  nextClips:
+  - {fileID: 8300000, guid: 213d1522cfcd0854f9fafb713e02986c, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 55db9b1f796463a46b4ff675372f477b, type: 2}
+  nextScene: 
