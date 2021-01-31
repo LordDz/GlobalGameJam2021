@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: graffiti_04_voice1_no_she_is_dangerous
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#d8de2c>Voice: No. You will get in trouble.</color>
+
+    <color=#d8de2c>She
+    didn''t like you.</color>
+
+    <color=#d8de2c>...</color>
+
+    <color=#d8de2c>You
+    are a creep.</color>
+
+    <color=#d8de2c>...</color>
+
+    <color=#d8de2c>A weirdo.</color>'
+  nextTitles:
+  - <color=#d8de2c>No. You will get in trouble.</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 0a10c46e18f7d69469b22cde03d02694, type: 2}
+  nextScene: 
