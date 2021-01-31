@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: call_02_linda_are_you_there
+  m_Name: call_05_options_2b
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man: Linda, are you there? Please answer me.</color>
+  - '<color=#ff0000ff>Man: Linda. Beauty. The world would be less beautiful without
+    you.</color>
 
 
-    <color=#ff00a2>Linda:
-    I''m here Glenn.</color>
+    <color=#ff00a2>Linda: I don''t know...</color>
 
 
 '
   nextTitles:
-  - <color=#ff0000ff>Linda, are you there? Please answer me.</color>
+  - <color=#ff0000ff>Linda. Beauty. The world would be less beautiful without you.</color>
   nextSpeaker: 0
   nextClips:
   - {fileID: 0}
   nextStates:
-  - {fileID: 11400000, guid: 27b51cf9b19eed246940a95b49ce78a3, type: 2}
+  - {fileID: 11400000, guid: 11434f3505522f64bafa567bc999b939, type: 2}
   nextScene: 

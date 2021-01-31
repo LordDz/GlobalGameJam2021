@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
+  m_Name: call_05_options_2a
+  m_EditorClassIdentifier: 
+  desc:
+  - '<color=#ff0000ff>Man: I''ll make you stay no matter what.</color>
+
+
+    <color=#ff00a2>Linda:
+    Give me a reason.</color>
+
+
+'
+  - '<color=#ff0000ff>Man: Then stay out of compassion.</color>
+
+
+    <color=#ff00a2>Linda:
+    Give me a reason.</color>
+
+
+'
+  nextTitles:
+  - <color=#ff0000ff>I'll make you stay no matter what.</color>
+  - <color=#ff0000ff>Then stay out of compassion.</color>
+  nextSpeaker: 0
+  nextClips:
+  - {fileID: 0}
+  - {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: a8f1af31ee7d2c449b933acb58648366, type: 2}
+  - {fileID: 11400000, guid: a8f1af31ee7d2c449b933acb58648366, type: 2}
+  nextScene: 
