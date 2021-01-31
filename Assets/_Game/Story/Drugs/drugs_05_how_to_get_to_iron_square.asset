@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: drugs_05_ride_the_high
+  m_Name: drugs_05_how_to_get_to_iron_square
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man: I don''t remember....</color>'
-  - '<color=#ff0000ff>Man: You look like animals.</color>'
+  - '<color=#ff0000ff>Man: How do I get to iron square?</color>
+
+    <color=#cfb019>Orange:
+    Tram three down the Avenue.</color>'
   nextTitles:
-  - <color=#ff0000ff>I don't remember....</color>
-  - <color=#ff0000ff>I just medicate.</color>
+  - <color=#ff0000ff>How do I get to iron square?</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 81f9dfac5fb0c064183d1e6cd7f092b4, type: 3}
-  - {fileID: 8300000, guid: 81f9dfac5fb0c064183d1e6cd7f092b4, type: 3}
+  - {fileID: 8300000, guid: 54c102c03a918f8428cca7446242ee7a, type: 3}
   nextStates:
-  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 0ea41d408885bfc4ea4278c116955fd9, type: 2}

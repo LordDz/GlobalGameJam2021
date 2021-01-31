@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89c57b1ef06144a8b88ac843a0980, type: 3}
-  m_Name: drugs_00_drugdealers
+  m_Name: drugs_06_continue_walking
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#3bba27>Green: Do you want to buy something?</color>'
+  - 
+  - 
   nextTitles:
-  - First line not shown.
+  - Take the tram to Iron Square.
+  - Continue walking around Poseidon.
   nextSpeaker: 0
-  nextClips:
-  - {fileID: 8300000, guid: 648363d407ecff1468ec2ae13329de41, type: 3}
-  nextStates:
-  - {fileID: 11400000, guid: ff68405503199224fb8b7e018e4e4ec7, type: 2}
+  nextClips: []
+  nextStates: []

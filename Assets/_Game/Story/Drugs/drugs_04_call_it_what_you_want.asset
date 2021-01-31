@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: drugs_04_call_it_what_you_want
   m_EditorClassIdentifier: 
   desc:
-  - '<color=#ff0000ff>Man: I don''t remember....</color>'
-  - '<color=#ff0000ff>Man: I just medicate.</color>'
+  - '<color=#ff0000ff>Man: I don''t remember....</color>
+
+    <color=#cfb019>Orange:
+    That''s fair. Don''t let the high go to waste.</color>'
+  - '<color=#ff0000ff>Man: I just medicate.</color>
+
+    <color=#cfb019>Orange: That''s
+    fair. Don''t let the high go to waste.</color>'
   nextTitles:
   - <color=#ff0000ff>I don't remember....</color>
   - <color=#ff0000ff>I just medicate.</color>
   nextSpeaker: 0
   nextClips:
-  - {fileID: 8300000, guid: 2f233944748007b49a7524652607e936, type: 3}
-  - {fileID: 8300000, guid: ba73fcc82a0a30643969adf08b3b1625, type: 3}
+  - {fileID: 8300000, guid: f83fb1994ad3da94fae7f69f1f41f8bd, type: 3}
+  - {fileID: 8300000, guid: 638d90de3aae99743a720e828d2d3ccf, type: 3}
   nextStates:
-  - {fileID: 11400000}
-  - {fileID: 11400000}
+  - {fileID: 11400000, guid: d1a8267c99f706c4fa5ca46ff40eea23, type: 2}
+  - {fileID: 11400000, guid: d1a8267c99f706c4fa5ca46ff40eea23, type: 2}

@@ -6,27 +6,28 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
 {
     public class ChoiceContainer : MonoBehaviour
     {
-        ChoiceButton[] listBtns;
+        [SerializeField] ChoiceButton[] listBtns;
         [SerializeField] Text textBox;
         [SerializeField] State startingState;
 
         State state;
-        AudioSource audioSpeaker;
+        [SerializeField] AudioSource audioSpeaker;
         [SerializeField] FadeDialogueUIOut fadeDialogueUIOut;
 
-        // Use this for initialization
-        void Start()
+        bool hasInit = false;
+
+
+        private void Init()
         {
             state = startingState;
-            audioSpeaker = GetComponent<AudioSource>();
 
-            listBtns = GetComponentsInChildren<ChoiceButton>();
             int nr = 0;
             foreach (var btn in listBtns)
             {
                 btn.Init(this, nr);
                 nr++;
             }
+            hasInit = true;
         }
 
         public void ClearText()
@@ -36,12 +37,18 @@ namespace ggj.Assets._Game.Scripts.TextAdventure.Scripts
 
         public void SetTalk(State talkState)
         {
+            
             state = talkState;
             FixBtns();
         }
 
         public void NextState(int nr)
         {
+            if (!hasInit)
+            {
+                Init();
+            }
+
             PlayVoiceClip(nr);
             var titles = state.GetNextTitles();
             var descriptions = state.titleDescriptions();
